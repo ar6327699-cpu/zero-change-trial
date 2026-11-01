@@ -1,0 +1,8 @@
+{
+  "packets": 16,
+  "matched_rgb_pose_mask_timestamps": true,
+  "visible_outline_available": true,
+  "webcam_opened": false,
+  "source": "User-supplied composited recording, used only for integration smoke test",
+  "median_worker_ms": 83.59054994070902
+}

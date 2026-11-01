@@ -1,0 +1,44 @@
+{
+  "mode": "smooth",
+  "frames": 570,
+  "fit_frames": 496,
+  "capture_to_apply_ms": 433.5557222366333,
+  "inference_ms": 165.4241500000353,
+  "blender_apply_ms": 135.49924999824725,
+  "processed_fps": 5.48425506547575,
+  "stage": "SIDES",
+  "lower_calibrated": true,
+  "back_samples": 0,
+  "regional_fit": {
+    "corrected_joints": 12,
+    "shoulder_correction_px": 3.019378665430213
+  },
+  "best_stability": true,
+  "held_frames": 0,
+  "rejected_packets": 0,
+  "committed_seq": 580,
+  "female_motion": {
+    "stationary_or_translation_frames": 79,
+    "live_camera_loss_frames": 0,
+    "loss_grace_ms": 120.0,
+    "worker_stages_ms": {
+      "crop_and_model": 86.21419999690261,
+      "motion_and_pose": 39.28559999621939,
+      "foreground": 47.59800000465475
+    },
+    "gate": {
+      "reason": "observed_movement",
+      "counts": {
+        "new_anchor": 85,
+        "joint_travel": 17,
+        "settling": 57,
+        "observed_movement": 251,
+        "visual_hold": 79,
+        "image_anchor_changed": 1,
+        "image_unknown": 5
+      },
+      "missing_grace_ms": 650.0
+    },
+    "regional_holds": []
+  }
+}

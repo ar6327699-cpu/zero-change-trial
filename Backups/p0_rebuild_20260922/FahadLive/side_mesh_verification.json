@@ -1,0 +1,64 @@
+{
+  "binding_joints": 52,
+  "finite_evaluated_meshes": true,
+  "pure_turn_mesh_max_error": {
+    "Bottoms": 4.079875946385463e-06,
+    "Tops": 7.366802202295451e-06,
+    "Shoes": 5.242146411031174e-06,
+    "Body": 1.0208606457185343e-05,
+    "Fahad_Head": 3.528662173692263e-06
+  },
+  "cases": [
+    {
+      "name": "profile_-100",
+      "heading_deg": -99.99999999999999,
+      "rigid_turn_error": 1.0208606457185343e-05
+    },
+    {
+      "name": "profile_-90",
+      "heading_deg": -90.0,
+      "rigid_turn_error": 9.571152760158261e-06
+    },
+    {
+      "name": "profile_-60",
+      "heading_deg": -59.999999999999986,
+      "rigid_turn_error": 0.0
+    },
+    {
+      "name": "profile_-30",
+      "heading_deg": -14.99999999999999,
+      "rigid_turn_error": 0.0
+    },
+    {
+      "name": "profile_0",
+      "heading_deg": 0.0,
+      "rigid_turn_error": 0.0
+    },
+    {
+      "name": "profile_30",
+      "heading_deg": 14.99999999999999,
+      "rigid_turn_error": 0.0
+    },
+    {
+      "name": "profile_60",
+      "heading_deg": 59.999999999999986,
+      "rigid_turn_error": 0.0
+    },
+    {
+      "name": "profile_90",
+      "heading_deg": 90.0,
+      "rigid_turn_error": 8.148908567374038e-08
+    },
+    {
+      "name": "profile_100",
+      "heading_deg": 99.99999999999999,
+      "rigid_turn_error": 1.976219311075706e-06
+    },
+    {
+      "name": "profile_90_hidden_arm",
+      "heading_deg": 90.0,
+      "rigid_turn_error": 0.0
+    }
+  ],
+  "note": "Synthetic poses rendered in actual current blend; not a live camera side-pose verification."
+}

@@ -1,0 +1,46 @@
+{
+  "hand_overlap_checks": {
+    "old_code_reproduces_hidden_visible_hand": true,
+    "visible_hand_overrides_wrong_depth": true,
+    "low_visibility_wrist_keeps_connected_skin": true,
+    "no_actual_skin_no_recovery": true,
+    "skin_coloured_field_not_restored": true,
+    "full_sleeve_forearm_covered": true,
+    "full_sleeve_visible_hand_only": true,
+    "outside_shirt_matte_unchanged": true,
+    "missing_hand_not_invented": true,
+    "new_screenshot_colours_hand_visible": true,
+    "reproduces_screenshot_colours_failure": true,
+    "blender_layer_changes_shirt_pixels": true,
+    "blender_foreground_patch_is_flat_camera_colour": true
+  },
+  "preserved_checks": {
+    "hand_on_chest_missing_elbow": true,
+    "hand_on_stomach_missing_elbow": true,
+    "crossed_hand_uses_local_torso_depth": true,
+    "profile_visible_hand_with_depth_noise": true,
+    "profile_rear_hand_stays_hidden": true,
+    "side_hand_works_without_face_reference": true,
+    "palm_lighting_differs_from_face": true,
+    "both_rear_arms_excluded": true,
+    "full_sleeves_keep_forearm_covered": true,
+    "missing_invalid_pose_clears_matte": true,
+    "non_skin_pixels_excluded": true,
+    "unrelated_hand_landmarks_rejected": true,
+    "new_person_reset_drops_old_skin_reference": true,
+    "original_crossed_forearm_coverage": true,
+    "pose_fingers_when_detailed_hand_missing": true,
+    "profile_fit_near_pair_11": true,
+    "profile_fit_near_pair_12": true,
+    "known_good_FahadAR/calibration.py": true,
+    "known_good_FahadLive/fahad_backend.py": true
+  },
+  "smooth_median_ms": {
+    "before": 20.04,
+    "after": 29.39
+  },
+  "protected_files_unchanged": 30,
+  "backup": "C:\\Users\\eisha\\OneDrive\\Desktop\\AR Garment Studio\\Backups\\hands_overlap_20260915_165529",
+  "installed_sha256": "b959ab80b64445e1e7fbe952854cb0d3132d43e5a4817d987b67c1ac9124b282",
+  "scope": "Current visible skin components can recover hands/forearms only in torso overlap; all other fitting and garments unchanged. Synthetic regression and Blender render checks passed. Live wearer check pending."
+}

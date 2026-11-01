@@ -1,0 +1,83 @@
+{
+  "checks_passed": 32,
+  "checks": [
+    "5 fps left common travel matches supported right",
+    "5 fps removes reproduced partial-support wrist lag",
+    "6.3 fps left common travel matches supported right",
+    "6.3 fps removes reproduced partial-support wrist lag",
+    "7 fps left common travel matches supported right",
+    "7 fps removes reproduced partial-support wrist lag",
+    "15 fps left common travel matches supported right",
+    "15 fps removes reproduced partial-support wrist lag",
+    "30 fps left common travel matches supported right",
+    "30 fps removes reproduced partial-support wrist lag",
+    "60 fps left common travel matches supported right",
+    "60 fps removes reproduced partial-support wrist lag",
+    "quiet keeps original output",
+    "no_image keeps original output",
+    "stale keeps original output",
+    "full_support keeps original output",
+    "only_right_moves keeps original output",
+    "missing_elbow keeps original output",
+    "missing_wrist keeps original output",
+    "outside_frame keeps original output",
+    "250 mixed frames preserve right output and diagnostics exactly",
+    "left wrist articulation is filtered rather than replaced by elbow",
+    "right cannot drive left pose",
+    "bounded left depth jitter retains verified image tracking",
+    "xy_disagrees does not bypass depth/visibility safeguards",
+    "partial_support does not bypass depth/visibility safeguards",
+    "missing_joint does not bypass depth/visibility safeguards",
+    "stale does not bypass depth/visibility safeguards",
+    "gap does not bypass depth/visibility safeguards",
+    "integrated partial-support chain improves left wrist response",
+    "integrated right arm remains unchanged",
+    "integrated left settles without continued creep"
+  ],
+  "common_forearm_travel": [
+    {
+      "fps": 5,
+      "old_left_max_error_px": 2.6003845521428866,
+      "new_left_max_error_px": 7.381104677948019e-14,
+      "left_vs_mirrored_right_max_px": 1.435067942883752e-13
+    },
+    {
+      "fps": 6.3,
+      "old_left_max_error_px": 2.4308577104485454,
+      "new_left_max_error_px": 9.296750665059116e-14,
+      "left_vs_mirrored_right_max_px": 1.542371118540254e-13
+    },
+    {
+      "fps": 7,
+      "old_left_max_error_px": 2.4283361997503765,
+      "new_left_max_error_px": 1.435067942883752e-13,
+      "left_vs_mirrored_right_max_px": 1.435067942883752e-13
+    },
+    {
+      "fps": 15,
+      "old_left_max_error_px": 1.9828130753787916,
+      "new_left_max_error_px": 1.435067942883752e-13,
+      "left_vs_mirrored_right_max_px": 1.435067942883752e-13
+    },
+    {
+      "fps": 30,
+      "old_left_max_error_px": 1.439620207297482,
+      "new_left_max_error_px": 2.1687745727438531e-13,
+      "left_vs_mirrored_right_max_px": 2.8491879111055443e-13
+    },
+    {
+      "fps": 60,
+      "old_left_max_error_px": 2.4459211554388864,
+      "new_left_max_error_px": 1.4762209355896038e-13,
+      "left_vs_mirrored_right_max_px": 1.4762209355896038e-13
+    }
+  ],
+  "integrated_camera_chain": {
+    "samples": 79,
+    "old_mean_left_error_px": 1.9588403941440113,
+    "new_mean_left_error_px": 6.872674486339048e-14
+  },
+  "right_arm_numerically_unchanged": true,
+  "independent_arm_motion": true,
+  "limitations": "Synthetic filter/image-evidence tests. No post-change live wearer video or raw-camera replay; missing forearm articulation remains conservatively filtered."
+}

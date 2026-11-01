@@ -1,0 +1,11 @@
+{
+  "known_good_folder": "C:/Users/eisha/OneDrive/Desktop/AR Baised",
+  "writes_to_known_good_folder": false,
+  "verified_original_sha256": {
+    "fahadGenius_AR_experiment.blend": "0d155887605caa08578e4335b50711d3ac3be5da879781a51ae7ff1c0bcd92db",
+    "FahadAR/ar_runtime.py": "c454953fe1e922bc109ecdde9268f96db5cd3c5cb54eaa3fb021e849f55fe20e",
+    "FahadAR/calibration.py": "64a41d248f110c8120bc3e181deaeb9fb38300f0c92e581e8c909f1971b93e95"
+  },
+  "studio_calibration_and_solver_byte_identical_to_known_good": true,
+  "isolation": "Studio has its own blend, runtime, garment library and launch file. No camera starts automatically."
+}

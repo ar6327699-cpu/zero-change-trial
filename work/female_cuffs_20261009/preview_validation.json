@@ -1,0 +1,22 @@
+{
+  "style_sleeve_length": -0.1,
+  "style_sleeve_width": 0.3,
+  "cuffs": {
+    "Left": {
+      "setback_model_units": 2.6624939361586257,
+      "width_ratio": 1.0900002255223102,
+      "wrist_x": 146.49972534179688,
+      "before_cuff_x": 146.49972534179688,
+      "after_cuff_x": 143.83723140563825
+    },
+    "Right": {
+      "setback_model_units": 2.643634072596342,
+      "width_ratio": 1.0900002255223102,
+      "wrist_x": -145.74537658691406,
+      "before_cuff_x": -145.74537658691406,
+      "after_cuff_x": -143.10174251431772
+    }
+  },
+  "torso_unchanged": true,
+  "source_saved": false
+}

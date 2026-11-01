@@ -1,0 +1,99 @@
+{
+  "synthetic_turn_cases": [
+    {
+      "yaw": 0,
+      "solver_heading": 0.0,
+      "regional_update_and_evaluation_ms": 8.488400002534036,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 5.918724026157048
+    },
+    {
+      "yaw": 30,
+      "solver_heading": 14.999999999999982,
+      "regional_update_and_evaluation_ms": 5.919300001551164,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 0.9962309650266226
+    },
+    {
+      "yaw": 60,
+      "solver_heading": 59.99999999999999,
+      "regional_update_and_evaluation_ms": 5.027299997891532,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 2.0174355965708353
+    },
+    {
+      "yaw": 90,
+      "solver_heading": 89.99999999999999,
+      "regional_update_and_evaluation_ms": 3.3010000006470364,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 1.087521217161753
+    },
+    {
+      "yaw": 120,
+      "solver_heading": 119.99999999999999,
+      "regional_update_and_evaluation_ms": 4.299699998227879,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 3.901178858320035
+    },
+    {
+      "yaw": 150,
+      "solver_heading": 150.0,
+      "regional_update_and_evaluation_ms": 7.894399997894652,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 5.669526531748056
+    },
+    {
+      "yaw": 180,
+      "solver_heading": 180.0,
+      "regional_update_and_evaluation_ms": 4.1143000016745646,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 5.918710236292905
+    },
+    {
+      "yaw": 210,
+      "solver_heading": 209.99999999999997,
+      "regional_update_and_evaluation_ms": 14.83840000219061,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 4.58201246219499
+    },
+    {
+      "yaw": 240,
+      "solver_heading": 239.99999999999994,
+      "regional_update_and_evaluation_ms": 6.828800000221236,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 2.0175515163684707
+    },
+    {
+      "yaw": 270,
+      "solver_heading": 270.0,
+      "regional_update_and_evaluation_ms": 6.924900000740308,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 1.087525992854692
+    },
+    {
+      "yaw": 300,
+      "solver_heading": 300.0,
+      "regional_update_and_evaluation_ms": 4.459499999938998,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 3.901177990005379
+    },
+    {
+      "yaw": 330,
+      "solver_heading": 344.9999999999999,
+      "regional_update_and_evaluation_ms": 4.629299997759517,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 5.669458803179563
+    },
+    {
+      "yaw": 360,
+      "solver_heading": 360.0,
+      "regional_update_and_evaluation_ms": 3.504899999825284,
+      "corrected_joints": 10,
+      "shoulder_correction_px": 5.918724026157048
+    }
+  ],
+  "independent_left_knee_correction": true,
+  "missing_lower_body_hides_shorts": true,
+  "uvs_unchanged": true,
+  "live_person_test": "pending; renders are synthetic"
+}

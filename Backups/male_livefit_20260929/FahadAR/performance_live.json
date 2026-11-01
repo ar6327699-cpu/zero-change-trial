@@ -1,0 +1,20 @@
+{
+  "mode": "smooth",
+  "frames": 1050,
+  "fit_frames": 595,
+  "capture_to_apply_ms": 259.4562768936157,
+  "inference_ms": 164.02145000756718,
+  "blender_apply_ms": 52.74860000645276,
+  "processed_fps": 8.49496933983473,
+  "stage": "SIDES",
+  "lower_calibrated": true,
+  "back_samples": 16,
+  "regional_fit": {
+    "corrected_joints": 8,
+    "shoulder_correction_px": 27.764716406584697
+  },
+  "best_stability": true,
+  "held_frames": 188,
+  "rejected_packets": 0,
+  "committed_seq": 1235
+}

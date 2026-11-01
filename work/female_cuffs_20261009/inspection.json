@@ -1,0 +1,164 @@
+{
+  "rows": [
+    {
+      "name": "Tops",
+      "category": "FEMALE_KAMEEZ",
+      "label": "Pink embroidered Kameez",
+      "id": "e915c671a1b65e0cb0c7b4a4e08cc629",
+      "mesh": "MASTER_FEMALE_KAMEEZ Mesh.002",
+      "keys": {
+        "Basis": 1.0,
+        "Female shoulder_width": 0.0,
+        "Female chest_width": 0.0,
+        "Female waist_width": 0.0,
+        "Female hip_width": 0.0,
+        "Female torso_length": 0.0,
+        "Female torso_depth": 0.0,
+        "Female chest_depth": 0.0,
+        "Female waist_depth": 0.0,
+        "Female hip_depth": 0.0,
+        "Female arms": 0.0,
+        "Female legs": 0.0,
+        "Style length": 0.0,
+        "Style sleeve_length": 0.0,
+        "Style sleeve_width": 0.0,
+        "Style hem_width": 0.0,
+        "Style slit_height": 0.0,
+        "Style neckline": 0.0
+      },
+      "bounds": [
+        [
+          -145.74537658691406,
+          90.53357696533203,
+          -34.05664825439453
+        ],
+        [
+          146.49972534179688,
+          319.29119873046875,
+          24.05664825439453
+        ]
+      ],
+      "cuffs": {
+        "Left": {
+          "extreme": 146.49972534179688,
+          "centre": [
+            146.49972534179688,
+            300.22605285644534,
+            -10.000000023841858
+          ],
+          "radius_y": 8.25,
+          "radius_z": 8.25,
+          "vertices": 20,
+          "wrist": [
+            146.49972534179688,
+            299.9322814941406,
+            -10.23786735534668
+          ]
+        },
+        "Right": {
+          "extreme": 145.74537658691406,
+          "centre": [
+            -145.74537658691406,
+            300.22605285644534,
+            -10.000000023841858
+          ],
+          "radius_y": 8.25,
+          "radius_z": 8.25,
+          "vertices": 20,
+          "wrist": [
+            -145.74537658691406,
+            299.9396667480469,
+            -12.103964805603027
+          ]
+        }
+      }
+    },
+    {
+      "name": "GS Profile FEMALE Tops",
+      "category": "FEMALE_KAMEEZ",
+      "label": "Pink embroidered Kameez",
+      "id": "e915c671a1b65e0cb0c7b4a4e08cc629",
+      "mesh": "MASTER_FEMALE_KAMEEZ Mesh.002",
+      "keys": {
+        "Basis": 1.0,
+        "Female shoulder_width": 0.0,
+        "Female chest_width": 0.0,
+        "Female waist_width": 0.0,
+        "Female hip_width": 0.0,
+        "Female torso_length": 0.0,
+        "Female torso_depth": 0.0,
+        "Female chest_depth": 0.0,
+        "Female waist_depth": 0.0,
+        "Female hip_depth": 0.0,
+        "Female arms": 0.0,
+        "Female legs": 0.0,
+        "Style length": 0.0,
+        "Style sleeve_length": 0.0,
+        "Style sleeve_width": 0.0,
+        "Style hem_width": 0.0,
+        "Style slit_height": 0.0,
+        "Style neckline": 0.0
+      },
+      "bounds": [
+        [
+          -145.74537658691406,
+          90.53357696533203,
+          -34.05664825439453
+        ],
+        [
+          146.49972534179688,
+          319.29119873046875,
+          24.05664825439453
+        ]
+      ],
+      "cuffs": {
+        "Left": {
+          "extreme": 146.49972534179688,
+          "centre": [
+            146.49972534179688,
+            300.22605285644534,
+            -10.000000023841858
+          ],
+          "radius_y": 8.25,
+          "radius_z": 8.25,
+          "vertices": 20,
+          "wrist": [
+            146.49972534179688,
+            299.9322814941406,
+            -10.23786735534668
+          ]
+        },
+        "Right": {
+          "extreme": 145.74537658691406,
+          "centre": [
+            -145.74537658691406,
+            300.22605285644534,
+            -10.000000023841858
+          ],
+          "radius_y": 8.25,
+          "radius_z": 8.25,
+          "vertices": 20,
+          "wrist": [
+            -145.74537658691406,
+            299.9396667480469,
+            -12.103964805603027
+          ]
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "name": "GS Garment Preview",
+      "settings": {}
+    },
+    {
+      "name": "Scene",
+      "settings": {
+        "GS_active_profile": "FEMALE",
+        "GS_body_profiles_v1": "{\"MALE\": {\"fit\": {\"far_chest\": 0.0, \"far_waist\": 0.0, \"far_depth\": 0.0, \"far_sleeves\": 0.0, \"far_neckline\": 0.0, \"far_shoulders\": 0.25, \"far_width\": 1.0, \"far_length\": 1.0, \"far_x\": 0.0, \"far_z\": 0.0, \"far_outfit\": \"OUTFIT\", \"far_full_turn\": true, \"far_occlusion\": true}, \"regions\": {}, \"calibration\": {\"stage\": \"SIDES\", \"ratio\": 0.8874602739925, \"ratios\": {\"thigh_screen_to_torso\": [0.6805037569475785, 0.6416324274785754], \"shoulders\": 0.6795235746315997, \"hips\": 0.4369137338181526, \"upper_arm_left\": 0.44797903114889215, \"upper_arm_right\": 0.49844389279909085, \"thigh_left\": 0.7235103597023115, \"thigh_right\": 0.7500777668510148}, \"side_counts\": [9, 14], \"back_count\": 6, \"lower_ready\": true, \"full_outfit\": true, \"full_turn\": true, \"message\": \"2/3 Turn each side slowly: side A 9/16, B 14/16, back 6/16\"}}, \"FEMALE\": {\"fit\": {\"far_chest\": 0.0, \"far_waist\": 0.0, \"far_depth\": 0.0, \"far_sleeves\": 0.0, \"far_neckline\": 0.0, \"far_shoulders\": 0.0, \"far_width\": 1.0, \"far_length\": 1.0, \"far_x\": 0.0, \"far_z\": 0.0, \"far_outfit\": \"OUTFIT\", \"far_full_turn\": true, \"far_occlusion\": true}, \"regions\": {\"shoulder_width\": 0.0, \"chest_width\": 0.0, \"waist_width\": 0.0, \"hip_width\": 0.0, \"torso_length\": 0.0, \"torso_depth\": 0.0, \"chest_depth\": 0.0, \"waist_depth\": 0.0, \"hip_depth\": 0.0, \"arms\": 0.0, \"legs\": 0.0}, \"style\": {\"length\": 0.0, \"sleeve_length\": 0.0, \"sleeve_width\": 0.0, \"hem_width\": 0.0, \"slit_height\": 0.0, \"neckline\": 0.0}, \"calibration\": {\"stage\": \"FRONT\", \"ratio\": null, \"ratios\": {}, \"side_counts\": [0, 0], \"back_count\": 0, \"lower_ready\": false, \"full_outfit\": true, \"full_turn\": true, \"message\": \"1/3 Stand upright, nearer if needed; camera level.\"}}}"
+      }
+    }
+  ],
+  "library_count": 12
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "a0500ea1917a492d9b1e390e133e4e9c",
+    "name": "DEMO HALF_SHIRT",
+    "category": "HALF_SHIRT",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "17562fafeee44c4eb9b1140c04795174",
+    "name": "DEMO FULL_SHIRT",
+    "category": "FULL_SHIRT",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "467727c84b0f482389d79b4b02a6dcd7",
+    "name": "DEMO SHORTS",
+    "category": "SHORTS",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "ace51f9c0a9142e4b16c2d0c5fbb794d",
+    "name": "DEMO PANTS",
+    "category": "PANTS",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "055be7b0ddc24657b8da891acabec176",
+    "name": "DEMO TROUSERS",
+    "category": "TROUSERS",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "2641fafaa7f74a59b04be005a09837d2",
+    "name": "fahad",
+    "category": "HALF_SHIRT",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "c99068645c174073b9a6999ba0e8d990",
+    "name": "fahad",
+    "category": "HALF_SHIRT",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "c5ae84be901e461f92ae45b51422fb68",
+    "name": "Fahad black crew - corrected",
+    "category": "HALF_SHIRT",
+    "notes": [
+      "Product-photo alignment is approximate; inspect neckline, print and sleeve seams."
+    ],
+    "method": "anchored product photo v2",
+    "photo_layout": "PRODUCT",
+    "neckline": "CREW",
+    "slim": 0.08
+  },
+  {
+    "id": "d5821d84b4904c519ace50d23dc37e5d",
+    "name": "Fahad black crew",
+    "category": "PANTS",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0
+  },
+  {
+    "id": "04277da06e8743dcabe5fdbadc56cf8d",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0
+  },
+  {
+    "id": "49f6c88dad2d42f9b1954dafdbbdd6d8",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0
+  },
+  {
+    "id": "c9090277640246eea9bdb3f7875be0b1",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0
+  }
+]

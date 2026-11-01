@@ -1,0 +1,10 @@
+{
+  "changed_sources": [
+    "ar_camera.py",
+    "ar_runtime.py",
+    "female_arm_image.py",
+    "female_arm_stabilizer.py"
+  ],
+  "all_fahadar_sources_parse": true,
+  "protected_desktop_folder_accessed": false
+}

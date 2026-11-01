@@ -1,0 +1,4 @@
+{
+  "reason": "Before shoulder-frame alignment fix in ArmImageFollower (screen-right sleeve / MediaPipe left arm)",
+  "files": [{"file": "FahadAR/female_arm_image.py", "before_sha256": "6caa1d163583b2e84eeaf09ffa65c285c17cc63bd66d48621ef08b51ec28705c"}]
+}

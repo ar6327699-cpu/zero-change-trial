@@ -1,0 +1,8 @@
+{
+  "synthetic_front_arms": true,
+  "synthetic_behind_arms_excluded": true,
+  "reset_clears_mask": true,
+  "float32_composite_max_difference": 5.913715739325198e-08,
+  "fast_mask_median_ms": 9.981149999930494,
+  "scope": "Synthetic colour/ROI regression, not real-person edge accuracy."
+}

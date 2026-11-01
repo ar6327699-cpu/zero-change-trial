@@ -1,0 +1,48 @@
+{
+  "mode": "smooth",
+  "frames": 840,
+  "fit_frames": 521,
+  "capture_to_apply_ms": 279.44624423980713,
+  "inference_ms": 128.82990000071004,
+  "blender_apply_ms": 87.57204999892565,
+  "processed_fps": 5.873264036289793,
+  "stage": "SIDES",
+  "lower_calibrated": true,
+  "back_samples": 0,
+  "regional_fit": {
+    "corrected_joints": 12,
+    "shoulder_correction_px": 0.8768219047546664
+  },
+  "best_stability": true,
+  "held_frames": 0,
+  "rejected_packets": 0,
+  "committed_seq": 860,
+  "female_motion": {
+    "stationary_or_translation_frames": 62,
+    "live_camera_loss_frames": 0,
+    "loss_grace_ms": 120.0,
+    "worker_stages_ms": {
+      "crop_and_model": 82.2492000006605,
+      "motion_and_pose": 17.880799998238217,
+      "foreground": 28.202299999975367
+    },
+    "gate": {
+      "reason": "observed_movement",
+      "counts": {
+        "observed_movement": 222,
+        "new_anchor": 115,
+        "settling": 80,
+        "joint_travel": 26,
+        "visual_hold": 62,
+        "image_anchor_changed": 2,
+        "image_unknown": 10
+      },
+      "missing_grace_ms": 650.0
+    },
+    "regional_holds": [
+      "torso",
+      "right_arm",
+      "right_leg"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "categories": {
+    "HALF_SHIRT": {
+      "vertices": 2183,
+      "max_pose_movement": 45.95184496161591,
+      "pose_apply_eval_median_ms": 8.267500001238659,
+      "packed_front_back": true,
+      "library_id": "a0500ea1917a492d9b1e390e133e4e9c"
+    },
+    "FULL_SHIRT": {
+      "vertices": 2928,
+      "max_pose_movement": 144.9098565844331,
+      "pose_apply_eval_median_ms": 9.26919999983511,
+      "packed_front_back": true,
+      "library_id": "17562fafeee44c4eb9b1140c04795174"
+    },
+    "SHORTS": {
+      "vertices": 2340,
+      "max_pose_movement": 66.97855609585683,
+      "pose_apply_eval_median_ms": 8.656099998916034,
+      "packed_front_back": true,
+      "library_id": "467727c84b0f482389d79b4b02a6dcd7"
+    },
+    "PANTS": {
+      "vertices": 2523,
+      "max_pose_movement": 105.71087444850197,
+      "pose_apply_eval_median_ms": 9.183199999824865,
+      "packed_front_back": true,
+      "library_id": "ace51f9c0a9142e4b16c2d0c5fbb794d"
+    },
+    "TROUSERS": {
+      "vertices": 2523,
+      "max_pose_movement": 105.9508226744311,
+      "pose_apply_eval_median_ms": 9.525900000880938,
+      "packed_front_back": true,
+      "library_id": "055be7b0ddc24657b8da891acabec176"
+    }
+  },
+  "real_garment_photos": "pending user input",
+  "live_new_garment_test": "not yet performed",
+  "original_mesh_and_uv_restore_exact": true,
+  "invalid_import_safe": true,
+  "full_pants_ankle_gate": true,
+  "calibration_and_solver_unchanged": true
+}

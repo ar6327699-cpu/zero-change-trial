@@ -1,0 +1,61 @@
+{
+  "outfit_combinations": [
+    {
+      "top": "HALF_SHIRT",
+      "bottom": "SHORTS",
+      "pose_cases": 7,
+      "UV_and_basis_unchanged": true,
+      "outside_waist_unchanged": true,
+      "post_landmark_order": true
+    },
+    {
+      "top": "HALF_SHIRT",
+      "bottom": "PANTS",
+      "pose_cases": 7,
+      "UV_and_basis_unchanged": true,
+      "outside_waist_unchanged": true,
+      "post_landmark_order": true
+    },
+    {
+      "top": "HALF_SHIRT",
+      "bottom": "TROUSERS",
+      "pose_cases": 7,
+      "UV_and_basis_unchanged": true,
+      "outside_waist_unchanged": true,
+      "post_landmark_order": true
+    },
+    {
+      "top": "FULL_SHIRT",
+      "bottom": "SHORTS",
+      "pose_cases": 7,
+      "UV_and_basis_unchanged": true,
+      "outside_waist_unchanged": true,
+      "post_landmark_order": true
+    },
+    {
+      "top": "FULL_SHIRT",
+      "bottom": "PANTS",
+      "pose_cases": 7,
+      "UV_and_basis_unchanged": true,
+      "outside_waist_unchanged": true,
+      "post_landmark_order": true
+    },
+    {
+      "top": "FULL_SHIRT",
+      "bottom": "TROUSERS",
+      "pose_cases": 7,
+      "UV_and_basis_unchanged": true,
+      "outside_waist_unchanged": true,
+      "post_landmark_order": true
+    }
+  ],
+  "evaluation_median_ms": {
+    "False": 1.5509000004385598,
+    "True": 4.514100000960752
+  },
+  "original_AR_blend_unchanged": true,
+  "calibration_module_unchanged": true,
+  "scene_saved": false,
+  "live_wearer_test": "pending",
+  "limits": "Waist containment on supported templates; not physical cloth collision or a guarantee for arbitrary imported cuts."
+}

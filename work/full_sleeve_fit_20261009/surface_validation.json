@@ -1,0 +1,77 @@
+{
+  "checks_passed": 27,
+  "checks": [
+    "Native cage prediction matches at yaw 0, arm -85",
+    "Observed body edges covered at yaw 0, arm -85",
+    "Stationary coverage does not drift at yaw 0, arm -85",
+    "Missing outline clears offsets at yaw 0, arm -85",
+    "Native cage prediction matches at yaw 0, arm 70",
+    "Observed body edges covered at yaw 0, arm 70",
+    "Stationary coverage does not drift at yaw 0, arm 70",
+    "Missing outline clears offsets at yaw 0, arm 70",
+    "Native cage prediction matches at yaw 65, arm -85",
+    "Observed body edges covered at yaw 65, arm -85",
+    "Stationary coverage does not drift at yaw 65, arm -85",
+    "Missing outline clears offsets at yaw 65, arm -85",
+    "Native cage prediction matches at yaw -65, arm -85",
+    "Observed body edges covered at yaw -65, arm -85",
+    "Stationary coverage does not drift at yaw -65, arm -85",
+    "Missing outline clears offsets at yaw -65, arm -85",
+    "Native cage prediction matches at yaw 90, arm -85",
+    "Observed body edges covered at yaw 90, arm -85",
+    "Stationary coverage does not drift at yaw 90, arm -85",
+    "Missing outline clears offsets at yaw 90, arm -85",
+    "Native cage prediction matches at yaw -90, arm 70",
+    "Observed body edges covered at yaw -90, arm 70",
+    "Stationary coverage does not drift at yaw -90, arm 70",
+    "Missing outline clears offsets at yaw -90, arm 70",
+    "Authored vertices unchanged",
+    "UV coordinates unchanged",
+    "Native live mesh closes both side vents without editing source topology"
+  ],
+  "metrics": [
+    {
+      "yaw": 0,
+      "angle": -85,
+      "cage_prediction_error_px": 5.76722601805542e-05,
+      "outline_error_px": 8.404254913330078e-06,
+      "update_ms": 4.687099950388074
+    },
+    {
+      "yaw": 0,
+      "angle": 70,
+      "cage_prediction_error_px": 9.575265832705634e-05,
+      "outline_error_px": 2.658367156982422e-05,
+      "update_ms": 4.692799993790686
+    },
+    {
+      "yaw": 65,
+      "angle": -85,
+      "cage_prediction_error_px": 7.186298389975339e-05,
+      "outline_error_px": 5.602836608886719e-06,
+      "update_ms": 4.605800029821694
+    },
+    {
+      "yaw": -65,
+      "angle": -85,
+      "cage_prediction_error_px": 7.376870608186697e-05,
+      "outline_error_px": 8.404254913330078e-06,
+      "update_ms": 4.481000010855496
+    },
+    {
+      "yaw": 90,
+      "angle": -85,
+      "cage_prediction_error_px": 0.00010735087745027395,
+      "outline_error_px": 1.4394521713256836e-05,
+      "update_ms": 4.652000032365322
+    },
+    {
+      "yaw": -90,
+      "angle": 70,
+      "cage_prediction_error_px": 7.911694858222551e-05,
+      "outline_error_px": 2.256035804748535e-05,
+      "update_ms": 4.479600000195205
+    }
+  ],
+  "scene_saved": false
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "key": "female_red_tonal",
+    "name": "Red tonal",
+    "profile": "FEMALE",
+    "top": "d36f2d53448c4473ba1af7edd85312d2",
+    "bottom": "d522da21fedf4c6591624961f3207286"
+  },
+  {
+    "key": "female_red_gold",
+    "name": "Red gold",
+    "profile": "FEMALE",
+    "top": "6d14a961dab142c99ee19d72257c1c6e",
+    "bottom": "857b8b6dc41c4f8ba907e3cdfa6322bc"
+  },
+  {
+    "key": "female_green_gold",
+    "name": "Green gold",
+    "profile": "FEMALE",
+    "top": "da1510ad51514c6282f4c85cdf81b575",
+    "bottom": "1592e44672824c30927d01d5ecf65b18"
+  },
+  {
+    "key": "female_yellow",
+    "name": "Yellow",
+    "profile": "FEMALE",
+    "top": "0f37a8ebcdef4ff38440ef0919ee93a8",
+    "bottom": "ef586ae9eb9c48c49b1a5dcd01997da7"
+  },
+  {
+    "key": "female_blue_floral",
+    "name": "Blue floral",
+    "profile": "FEMALE",
+    "top": "f26bc5d2e7884dcdb2512203e9a706c2",
+    "bottom": "b8eb8b4c47f5411fa6492e97892b60eb"
+  },
+  {
+    "key": "male_blue",
+    "name": "Blue suit",
+    "profile": "MALE",
+    "top": "7125317243db4845b83a5d9555b8717c",
+    "bottom": "f3b56f5efb604bfd97b8fe9c4d7e3cef"
+  },
+  {
+    "key": "male_black",
+    "name": "Black suit",
+    "profile": "MALE",
+    "top": "b59ffb92529b4d8283166e3c308b1b4c",
+    "bottom": "6352468beb8c4b73b3134f03cd22891d"
+  },
+  {
+    "key": "male_green",
+    "name": "Green suit",
+    "profile": "MALE",
+    "top": "ce96b46cd01c4fb2aa5370dcecf6ae67",
+    "bottom": "af76fb63bad046cb99ef4ee945d2a427"
+  }
+]

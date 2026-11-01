@@ -1,0 +1,71 @@
+{
+  "checks_passed": 24,
+  "checks": [
+    "quiet output bit-for-bit unchanged",
+    "unknown output bit-for-bit unchanged",
+    "stale output bit-for-bit unchanged",
+    "translation output bit-for-bit unchanged",
+    "motion evidence is non-mutating",
+    "partial support does not authorize wrist",
+    "moving arm rejects contradictory rigid vote",
+    "opposite quiet arm preserved",
+    "6.3 fps supported XY follows current packet",
+    "7 fps supported XY follows current packet",
+    "15 fps supported XY follows current packet",
+    "30 fps supported XY follows current packet",
+    "60 fps supported XY follows current packet",
+    "unsupported wrist keeps original filter",
+    "supported elbow bypasses added XY filter",
+    "missing_wrist does not invent observations",
+    "missing_shoulder does not invent observations",
+    "out_of_frame does not invent observations",
+    "gap does not invent observations",
+    "nan does not invent observations",
+    "backward_time does not invent observations",
+    "integrated motion and reversal use optical support",
+    "return to stillness has no recoil",
+    "recorded contradictory votes removed"
+  ],
+  "synthetic_filter_response": [
+    {
+      "fps": 6.3,
+      "old_final_filter_max_error_px": 13.847273370271767,
+      "new_final_filter_max_error_px": 0.0
+    },
+    {
+      "fps": 7,
+      "old_final_filter_max_error_px": 14.010535042865587,
+      "new_final_filter_max_error_px": 0.0
+    },
+    {
+      "fps": 15,
+      "old_final_filter_max_error_px": 14.419887843774656,
+      "new_final_filter_max_error_px": 0.0
+    },
+    {
+      "fps": 30,
+      "old_final_filter_max_error_px": 14.614200438856768,
+      "new_final_filter_max_error_px": 0.0
+    },
+    {
+      "fps": 60,
+      "old_final_filter_max_error_px": 10.82309699950251,
+      "new_final_filter_max_error_px": 0.0
+    }
+  ],
+  "recorded_evidence_replay": {
+    "left": {
+      "active_samples": 40,
+      "old_false_still_votes": 13,
+      "new_false_still_votes": 0
+    },
+    "right": {
+      "active_samples": 42,
+      "old_false_still_votes": 13,
+      "new_false_still_votes": 0
+    }
+  },
+  "integrated_active_samples": 61,
+  "integrated_max_xy_error_px": 0,
+  "limitations": "Offline filter/decision checks, not a raw-video pose replay or a camera-to-display latency measurement. The screen recording contains an existing virtual overlay."
+}

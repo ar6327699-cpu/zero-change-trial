@@ -1,0 +1,20 @@
+{
+  "synthetic_palm_rotation_cases": 14,
+  "angles_degrees": [
+    -150,
+    -90,
+    -45,
+    0,
+    45,
+    90,
+    150
+  ],
+  "arm_direction_preservation": "PASS",
+  "replayed_live_frames": 511,
+  "head_legs_torso_shoulders_max_change": 0.0,
+  "finger_curls_unchanged": true,
+  "wrist_bend_peak_degrees": [
+    54.732926328096866,
+    60.672841433947696
+  ]
+}

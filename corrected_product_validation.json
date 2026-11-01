@@ -1,0 +1,33 @@
+{
+  "asset": "c5ae84be901e461f92ae45b51422fb68",
+  "round_neck_and_slim_basis_preserved": true,
+  "packed_front_back_textures": true,
+  "UVs_finite_and_unchanged": true,
+  "synthetic_pose_cases": [
+    "arms_out",
+    "arms_down",
+    "wide_stance",
+    "left_leg_only",
+    "right_leg_only",
+    "bent_elbows",
+    "bent_knees"
+  ],
+  "sleeve_max_movement_local": 45.95184496161591,
+  "shorts_max_movement_local": 66.97855609585683,
+  "independent_legs": {
+    "left": {
+      "own_hem_mean": 58.91160914191752,
+      "opposite_hem_mean": 0.0
+    },
+    "right": {
+      "own_hem_mean": 57.85004394004846,
+      "opposite_hem_mean": 0.0
+    }
+  },
+  "full_fit_stack_finite": true,
+  "restore_original_geometry_and_UVs_exact": true,
+  "known_good_AR_hashes_unchanged": true,
+  "calibration_module_identical": true,
+  "studio_scene_saved": false,
+  "real_wearer_test": "pending; synthetic tests do not establish live fit accuracy"
+}

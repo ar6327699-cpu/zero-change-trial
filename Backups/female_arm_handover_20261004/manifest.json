@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "baseline_entries": 184,
+  "unique_baseline_files": 128,
+  "changed_files": [
+    "FahadAR/female_arm_image.py",
+    "FahadAR/female_regional_flow.py",
+    "FahadAR/ar_camera.py"
+  ],
+  "protected_files_unchanged": 125,
+  "installed_matches_tested_stage": true,
+  "camera_started": false,
+  "main_blend_saved": false,
+  "backup": "C:/Users/eisha/OneDrive/Desktop/AR Garment Studio/Backups/female_arm_handover_20261004",
+  "files": [
+    {
+      "file": "FahadAR/ar_camera.py",
+      "before_sha256": "7b9e654a746d9f4dd114ea4602ef7598707a7560ca6e70d669eea9c80b60bbcf",
+      "installed_sha256": "17dc35836273dd95a8c0152a350db3f8fce6f2ba159c42282408496dbcacb7ef"
+    },
+    {
+      "file": "FahadAR/female_arm_image.py",
+      "before_sha256": "46d0409e81b92df9f8fe99a2f9700aee2beb3bb7940fa6dcf50aeba52606c09a",
+      "installed_sha256": "6caa1d163583b2e84eeaf09ffa65c285c17cc63bd66d48621ef08b51ec28705c"
+    },
+    {
+      "file": "FahadAR/female_regional_flow.py",
+      "before_sha256": "b25bf0def86a81c7d53c306b11cafe40ed4f278a80e9a01ee651b5357ca73a7e",
+      "installed_sha256": "5a6c1a49bda3262818e62749635e5334bc8876c7019d92860182521e64bc76e1"
+    },
+    {
+      "file": "FahadAR/female_arm_features.py",
+      "before_sha256": null,
+      "installed_sha256": "d751507ccf6d61cbded21352fb6f91bf1008f5e047db5a8e0e3867c635fd249a"
+    }
+  ]
+}

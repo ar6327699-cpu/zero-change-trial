@@ -1,0 +1,11 @@
+{
+  "change": "Continuous female sleeve stabilizer before the solver (adaptive cutoff, shoulder-relative)",
+  "changed_files": ["FahadAR/ar_camera.py", "FahadAR/female_arm_stabilizer.py"],
+  "files": [
+    {"file": "FahadAR/ar_camera.py", "before_sha256": "17dc35836273dd95a8c0152a350db3f8fce6f2ba159c42282408496dbcacb7ef", "installed_sha256": "f979bdd5e50a8c977a4adbf7f68ae3afb46755691c9531e226e68364a4a592bc"},
+    {"file": "FahadAR/female_arm_stabilizer.py", "before_sha256": null, "installed_sha256": "e4b175d9f07d8cbc4dc1fe6164b9b5f28755e7ff5a2da50f6eb99615e661f66a"}
+  ],
+  "restore": "Copy Backups/arm_stabilizer_20261005/FahadAR/ar_camera.py back to FahadAR/ (the new module is then unused).",
+  "camera_started": false,
+  "main_blend_saved": false
+}

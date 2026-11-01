@@ -1,0 +1,10 @@
+{
+  "synthetic_profiles": 10,
+  "side_leg_isolation_cases": 6,
+  "world_arm_direction_max_error_deg": 7.80957912847822e-05,
+  "real_frames_replayed": 511,
+  "finger_max_change_rad": 0.0,
+  "front_head_max_change_rad": 9.941591820605833e-15,
+  "front_leg_max_change_rad": 1.2530254611675673e-13,
+  "scope": "Synthetic side rotations plus replay of previous front capture. Fresh side camera test is still required."
+}

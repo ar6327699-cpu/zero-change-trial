@@ -1,0 +1,12 @@
+{
+  "changed_vs_pre_update": [
+    "FahadAR\\ar_camera.py",
+    "FahadAR\\ar_runtime.py",
+    "FahadAR\\female_arm_image.py",
+    "FahadAR\\female_arm_stabilizer.py",
+    "FahadAR\\garment_fit.py",
+    "FahadAR\\garment_studio.py",
+    "FahadLive\\fahad_backend.py"
+  ],
+  "video_duration": 40.916666666666664
+}

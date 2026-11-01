@@ -1,0 +1,18 @@
+{
+  "changed_existing_sources": [
+    "FahadAR\\ar_camera.py",
+    "FahadAR\\ar_runtime.py",
+    "FahadAR\\female_arm_image.py",
+    "FahadAR\\female_arm_stabilizer.py",
+    "FahadAR\\garment_fit.py",
+    "FahadAR\\garment_studio.py",
+    "FahadLive\\fahad_backend.py"
+  ],
+  "new_sources": [
+    "FahadAR\\female_coverage.py",
+    "FahadAR\\female_frame.py"
+  ],
+  "python_sources_parsed": 61,
+  "saved_blend_unchanged": true,
+  "protected_desktop_folder_accessed": false
+}

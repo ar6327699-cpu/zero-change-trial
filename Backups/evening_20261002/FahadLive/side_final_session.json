@@ -1,0 +1,6 @@
+{
+  "actual_normal_restart_writer": "LiveTargetArmaturePoseWriter",
+  "temporary_test_flags_removed": true,
+  "backend": "fahad_live",
+  "solver_sha256": "ebb6dc4a3b1f23e804d2f0d3c1c9d714677963d302b2162591a2042d7bc80d81"
+}

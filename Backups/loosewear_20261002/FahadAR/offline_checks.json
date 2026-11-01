@@ -1,0 +1,38 @@
+{
+  "copy": "C:\\Users\\eisha\\Documents\\Codex\\2026-09-10\\yar\\outputs\\fahadGenius_AR_experiment.blend",
+  "alignment_cases": [
+    {
+      "dx": 0,
+      "dy": 0,
+      "scale": 1,
+      "joint_mean_error_pixels": 2.1116145643723057
+    },
+    {
+      "dx": 0.12,
+      "dy": 0,
+      "scale": 1,
+      "joint_mean_error_pixels": 2.111608559129831
+    },
+    {
+      "dx": -0.12,
+      "dy": 0,
+      "scale": 1,
+      "joint_mean_error_pixels": 2.111615822906681
+    },
+    {
+      "dx": 0,
+      "dy": 0.08,
+      "scale": 0.8,
+      "joint_mean_error_pixels": 1.689291052645605
+    },
+    {
+      "dx": 0,
+      "dy": -0.04,
+      "scale": 1.1,
+      "joint_mean_error_pixels": 2.3227782735822036
+    }
+  ],
+  "only_clothes_rendered": true,
+  "finite_garment_vertices": true,
+  "scope": "Offline projection checks only. Live camera test still required."
+}

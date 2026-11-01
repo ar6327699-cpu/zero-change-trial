@@ -1,0 +1,220 @@
+"""Female-only stillness and regional evidence; shared male gates stay intact.
+
+All anchors are fixed, not creeping averages. Confidence is never increased.
+Image evidence can corroborate uncertain joints briefly, not forever.
+"""
+from collections import Counter
+import numpy as np
+from pink_stillness import IDS, StillnessGate as LandmarkGate
+
+LOSS_SECONDS = .65
+REGIONS = {'torso': (11,12,23,24), 'left_arm': (11,13,15),
+           'right_arm': (12,14,16), 'left_leg': (23,25,27),
+           'right_leg': (24,26,28)}
+GROUPS = {'torso': (0,1), 'left_arm': (2,3), 'right_arm': (4,5),
+          'left_leg': (6,7), 'right_leg': (8,9)}
+
+def fresh(motion, stamp):
+    try:
+        return (isinstance(motion,dict) and motion.get('valid') is True and
+                abs(float(motion.get('stamp',-1))-float(stamp))<.001)
+    except (TypeError,ValueError):
+        return False
+
+class StillnessGate:
+    def __init__(self):
+        self.counts=Counter();self.reason='new';self.reset()
+    def reset(self):
+        self.fallback=LandmarkGate();self.anchor=None;self.context=None
+        self.last=None;self.started=None;self.epoch=None
+        self.acquired=np.zeros(len(IDS),bool);self.missing=np.full(len(IDS),np.nan)
+        self.reason='reset'
+        self.last_shift=None;self.outlier_since=None
+    def decide(self, held, reason):
+        self.reason=reason;self.counts[reason]+=1;return bool(held)
+    def diagnostics(self):
+        return {'reason':self.reason,'counts':dict(self.counts),'missing_grace_ms':LOSS_SECONDS*1000}
+    def update(self,pose,world,stamp,context=None,motion=None):
+        p=np.asarray(pose,float);w=np.asarray(world,float);stamp=float(stamp)
+        if p.shape!=(33,4) or w.shape!=(33,4) or not np.isfinite(p).all() or not np.isfinite(w).all() or not np.isfinite(stamp):
+            self.reset();return self.decide(False,'invalid_pose')
+        if context!=self.context or (self.last is not None and not 0<stamp-self.last<=.6):self.reset()
+        self.context=context;self.last=stamp
+        fallback=self.fallback.update(p,w,stamp,context)
+        if not fresh(motion,stamp):
+            self.anchor=None;self.started=None;self.epoch=None
+            self.last_shift=None;self.outlier_since=None
+            return self.decide(fallback,'landmark_hold' if fallback else 'image_unknown')
+        if not motion.get('quiet') and motion.get('mode')!='translate':
+            self.anchor=None;self.started=None;self.fallback.reset()
+            self.last_shift=None;self.outlier_since=None
+            return self.decide(False,'observed_movement')
+        shift=np.asarray(motion.get('translation_px',[0,0]),float)
+        if shift.shape!=(2,) or not np.isfinite(shift).all():
+            self.reset();return self.decide(False,'translation_limit')
+        previous_shift=self.last_shift
+        self.last_shift=shift.copy()
+        # The 12px safety bound applies to a NEW observation, not lifetime
+        # accumulated travel. A slow walk must not periodically force a refit.
+        step=shift-previous_shift if previous_shift is not None and self.epoch==motion.get('epoch') else shift
+        if np.linalg.norm(step)>12:
+            self.reset();return self.decide(False,'translation_limit')
+        threshold=.45 if self.anchor is not None else .60
+        valid=(p[IDS,3]>=threshold) & np.all((p[IDS,:2]>.005)&(p[IDS,:2]<.995),axis=1)
+        lost=self.acquired&~valid
+        self.missing[lost & np.isnan(self.missing)]=stamp
+        self.missing[valid]=np.nan
+        self.acquired |= valid
+        evidence=valid.sum()>=6 and ((valid[0] and valid[6]) or (valid[1] and valid[7]))
+        if not evidence:
+            self.reset();return self.decide(False,'torso_or_joints_missing')
+        # Keep the missing timer across re-anchors. Repeated unknown packets
+        # must not renew a stale limb's lease or freeze an unseen body forever.
+        if np.any(lost & ((stamp-self.missing)>LOSS_SECONDS)):
+            self.anchor=None;self.started=None
+            self.outlier_since=None
+            return self.decide(False,'joint_loss_expired')
+        epoch=motion.get('epoch')
+        reason='new_anchor'
+        if self.anchor is not None and self.epoch==epoch:
+            pp,ww,vv,prior_shift=self.anchor
+            # Keep the successful original acquisition behavior. Short loss
+            # never removed a joint from this anchor, so its return is common;
+            # a genuinely new visible joint still requires reacquisition.
+            common=valid&vv
+            returning=valid&~vv
+            if returning.any():
+                reason='reacquired_joint_moved'
+            if common.sum()>=6 and reason!='reacquired_joint_moved':
+                idx=IDS[common]
+                pixel=np.linalg.norm((p[idx,:2]-pp[idx,:2])*[640,360]-(shift-prior_shift),axis=1)
+                depth=np.linalg.norm((w[idx,:3]-w[[23,24],:3].mean(0))-(ww[idx,:3]-ww[[23,24],:3].mean(0)),axis=1)
+                covered=set(motion.get('covered',[]))
+                limits=np.array([6. if int(j) in covered else 3. for j in idx])
+                outside=pixel>limits
+                corroborated=False
+                if outside.sum()==1 and pixel.max()<=12 and motion.get('mode') in ('quiet','translate'):
+                    joint=int(idx[outside][0]);image_regions=motion.get('regions',{})
+                    group_ids={11:(0,2),12:(1,4),13:(2,3),14:(4,5),15:(3,),16:(5,),23:(0,6),24:(1,8),25:(6,7),26:(8,9),27:(7,),28:(9,)}.get(joint,())
+                    corroborated=bool(group_ids) and all(image_regions.get(str(g),{}).get('valid') and image_regions[str(g)].get('rigid_translation') for g in group_ids)
+                if corroborated:
+                    if self.outlier_since is None:self.outlier_since=stamp
+                    corroborated=stamp-self.outlier_since<=.22
+                else:self.outlier_since=None
+                if (not outside.any() or corroborated) and depth.max()<=.18 and np.median(depth)<=.06:
+                    if corroborated:self.counts['image_rejected_landmark_outlier']+=1
+                    held=stamp-self.started>=.28
+                    return self.decide(held,'visual_hold' if held else 'settling')
+                reason='joint_travel' if np.any(pixel>limits) else 'depth_travel'
+        elif self.anchor is not None:reason='image_anchor_changed'
+        self.anchor=(p.copy(),w.copy(),valid.copy(),shift.copy())
+        self.started=stamp;self.epoch=epoch
+        self.outlier_since=None
+        return self.decide(False,reason)
+
+class RegionalLock:
+    """Stabilize independent fixed regions before pose solving.
+
+Moving regions immediately use current data. A quiet sleeve is body-local,
+so holding it never prevents the shoulder itself from following the person.
+"""
+    def __init__(self):self.reset()
+    def reset(self):
+        self.anchors={};self.missing={};self.last=None;self.held=[]
+        self.anchor_times={};self.state={};self.outliers={};self.pending={}
+    def _unconfirmed_arm_jump(self,name,delta,depth,stamp):
+        """Corroborated quiet pixels require a CONSISTENT new arm estimate.
+
+        A time lease alone accepts alternating detector/depth failures when
+        it expires. Count agreement instead, against a fixed candidate (not
+        an average that can follow noise). Real image motion bypasses this
+        path; a consistent depth-only move needs three samples / 0.20 s.
+        Called only with fresh, visible, rigid, unchanged image references
+        and bounded innovations. It never raises a confidence value.
+        """
+        old=self.pending.get(name)
+        agrees=(old is not None and
+                np.linalg.norm(delta-old[0],axis=1).max()<=2. and
+                np.linalg.norm(depth-old[1],axis=1).max()<=.035)
+        if not agrees:
+            self.pending[name]=(delta.copy(),depth.copy(),stamp,1)
+            return True
+        count=old[3]+1;self.pending[name]=(old[0],old[1],old[2],count)
+        return not (count>=3 and stamp-old[2]>=.20)
+    def update(self,pose,world,observed,stamp,motion):
+        p=np.asarray(pose,float).copy();w=np.asarray(world,float).copy();raw=np.asarray(observed,float)
+        self.held=[];self.state={}
+        if p.shape!=(33,4) or w.shape!=(33,4) or raw.shape!=(33,4) or not np.isfinite(p).all() or not np.isfinite(w).all() or not np.isfinite(raw).all():
+            self.reset();return pose,world
+        if self.last is not None and not 0<stamp-self.last<=.6:self.reset()
+        self.last=stamp
+        regions=motion.get('regions',{}) if isinstance(motion,dict) and abs(float(motion.get('stamp',-1))-stamp)<.001 else {}
+        for name,indices in REGIONS.items():
+            idx=list(indices);old=self.anchors.get(name)
+            evidence=[regions.get(str(g),{}) for g in GROUPS[name]]
+            # Never promote missing imagery to quiet. Use the existing input
+            # unchanged when a region has insufficient visual corroboration.
+            quiet=bool(evidence) and all(e.get('valid') and e.get('quiet') for e in evidence)
+            visible=raw[idx,3]>=.45
+            if not visible.all():self.missing.setdefault(name,stamp)
+            else:self.missing.pop(name,None)
+            expired=stamp-self.missing.get(name,stamp)>LOSS_SECONDS
+            if not quiet or expired or not visible[0]:
+                self.anchors.pop(name,None);self.anchor_times.pop(name,None)
+                self.outliers.pop(name,None);self.pending.pop(name,None)
+                self.state[name]={'held':False,'reason':'image_moving_or_unknown' if not quiet else 'visibility_expired'}
+                continue
+            optical=[(e.get('position_epoch'),np.asarray(e.get('position_px',[0,0]),float)) for e in evidence]
+            innovation={};release='initial_anchor'
+            if old is not None:
+                pp,ww,rp,prior_optical=old
+                optical_quiet=all(a[0]==b[0] and np.linalg.norm(a[1]-b[1])<=1.25 for a,b in zip(optical,prior_optical))
+                if name=='torso':
+                    delta=(raw[idx,:2]-rp[:,:2])*[640,360]
+                    depth=(w[idx,:3]-w[idx,:3].mean(0))-(ww[:,:3]-ww[:,:3].mean(0))
+                else:
+                    delta=((raw[idx,:2]-raw[idx[0],:2])-(rp[:,:2]-rp[0,:2]))*[640,360]
+                    depth=(w[idx,:3]-w[idx[0],:3])-(ww[:,:3]-ww[0,:3])
+                pixel=np.linalg.norm(delta[visible],axis=1)
+                depth_max=float(np.linalg.norm(depth[visible],axis=1).max())
+                innovation=dict(pixel_max=float(pixel.max()),depth_max=depth_max,
+                    optical_anchor_travel=float(max(np.linalg.norm(a[1]-b[1]) for a,b in zip(optical,prior_optical))),
+                    optical_epoch_same=all(a[0]==b[0] for a,b in zip(optical,prior_optical)))
+                outside=pixel>6
+                # The same short, image-corroborated detector-spike rejection
+                # used in whole-body follow also applies to a STILL region.
+                # No extended freeze: sustained errors, image motion, loss or
+                # changed depth release immediately or after the .22s lease.
+                corroborated=(optical_quiet and outside.sum()==1 and pixel.max()<=12 and
+                              all(e.get('rigid_translation') for e in evidence))
+                if corroborated:
+                    self.outliers.setdefault(name,stamp)
+                    corroborated=stamp-self.outliers[name]<=.22
+                else:self.outliers.pop(name,None)
+                acceptable=(not outside.any() or corroborated) and depth_max<=.18
+                conflict=((outside.any() or depth_max>.18) and name in ('left_arm','right_arm') and
+                          optical_quiet and visible.all() and pixel.max()<=18. and depth_max<=.35 and
+                          all(e.get('rigid_translation') for e in evidence))
+                rejected=conflict and self._unconfirmed_arm_jump(name,delta,depth,stamp)
+                if conflict:acceptable=False
+                if not conflict:self.pending.pop(name,None)
+                if optical_quiet and (acceptable or rejected):
+                    if name=='torso':p[idx,:3]=pp[:,:3];w[idx,:3]=ww[:,:3]
+                    else:
+                        p[idx[1:],:3]=pp[1:,:3]+p[idx[0],:3]-pp[0,:3]
+                        w[idx[1:],:3]=ww[1:,:3]+w[idx[0],:3]-ww[0,:3]
+                    self.held.append(name)
+                    self.state[name]={'held':True,'anchor':self.anchor_times[name],'reason':'held',
+                                      'image_rejected_spike':bool(corroborated),
+                                      'image_rejected_inconsistent_pose':bool(rejected),**innovation}
+                    continue
+                release=('optical_epoch' if not innovation['optical_epoch_same'] else
+                         'optical_travel' if not optical_quiet else
+                         'confirmed_arm_innovation' if conflict else
+                         'pixel_and_depth' if outside.any() and depth_max>.18 else
+                         'pixel_travel' if outside.any() else 'depth_travel')
+            self.anchors[name]=(p[idx].copy(),w[idx].copy(),raw[idx].copy(),optical)
+            self.outliers.pop(name,None);self.pending.pop(name,None)
+            self.anchor_times[name]=stamp
+            self.state[name]={'held':False,'anchor':stamp,'reason':'new_anchor','release_reason':release,**innovation}
+        return p.tolist(),w.tolist()

@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "hand_on_chest_missing_elbow": true,
+    "hand_on_stomach_missing_elbow": true,
+    "crossed_hand_uses_local_torso_depth": true,
+    "profile_visible_hand_with_depth_noise": true,
+    "profile_rear_hand_stays_hidden": true,
+    "side_hand_works_without_face_reference": true,
+    "palm_lighting_differs_from_face": true,
+    "both_rear_arms_excluded": true,
+    "full_sleeves_keep_forearm_covered": true,
+    "missing_invalid_pose_clears_matte": true,
+    "non_skin_pixels_excluded": true,
+    "unrelated_hand_landmarks_rejected": true,
+    "new_person_reset_drops_old_skin_reference": true,
+    "original_crossed_forearm_coverage": true,
+    "pose_fingers_when_detailed_hand_missing": true,
+    "profile_fit_near_pair_11": true,
+    "profile_fit_near_pair_12": true,
+    "known_good_FahadAR/calibration.py": true,
+    "known_good_FahadLive/fahad_backend.py": true
+  },
+  "before_fix_regressions": {
+    "hand_on_chest_missing_elbow": false,
+    "hand_on_stomach_missing_elbow": false,
+    "crossed_hand_uses_local_torso_depth": false,
+    "profile_visible_hand_with_depth_noise": false,
+    "side_hand_works_without_face_reference": false,
+    "palm_lighting_differs_from_face": false,
+    "pose_fingers_when_detailed_hand_missing": false
+  },
+  "smooth_median_ms": {
+    "before": 18.96,
+    "after": 22.45
+  },
+  "scope": "Synthetic poses/colours and saved solver/calibration checks. Live wearer edge accuracy still needs verification.",
+  "local_semantic_model_smoke_test": true,
+  "protected_files_unchanged": 35,
+  "backup": "C:\\Users\\eisha\\OneDrive\\Desktop\\AR Garment Studio\\Backups\\occlusion_20260915_163122",
+  "installed_sha256": "4e0fcfd8b51843f52f751cfd017ec4816e8345464e44945652997cdfe28ddb74"
+}

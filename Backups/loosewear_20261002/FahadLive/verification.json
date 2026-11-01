@@ -1,0 +1,37 @@
+{
+  "file_modified_in_place": "C:\\Users\\eisha\\Documents\\Codex\\2026-09-10\\yar\\outputs\\fahadGenius_posecap_v3_checked.blend",
+  "backup": "C:\\Users\\eisha\\Documents\\Codex\\2026-09-10\\yar\\outputs\\fahadGenius_v3_before_live_fix.blend",
+  "backend": "Fahad Live - Calibrated Mixamo + Fingers",
+  "mapping": {
+    "body": 22,
+    "fingers": 30
+  },
+  "live_camera_to_blender_frames": 511,
+  "live_latency_median_ms": 67.4738883972168,
+  "straight_head_pitch_median_deg": 0.0,
+  "leg_test_valid_frames": {
+    "left": 200,
+    "right": 200
+  },
+  "single_left_lift_deg": {
+    "left_hip": 47.65,
+    "supporting_right_hip": -3.74
+  },
+  "single_right_lift_deg": {
+    "right_hip": -15.69,
+    "supporting_left_hip": -2.34
+  },
+  "final_hand_revision": "Source Z flexion from actual Mixamo palm plane; thumb opposition from measured palm-local segment directions.",
+  "final_hand_revision_validation": "Replayed all 511 recorded live frames through Blender after the axis correction; rendered real left/right open and fist frames. Not a second live stream after the final hand revision.",
+  "final_replay_pose_frames": 511,
+  "evaluated_mesh_sample_frames": 52,
+  "finite_pose_and_mesh_checks": "PASS",
+  "packed_texture_count": 20,
+  "materials_uvs_and_geometry": "No edits in this repair; retained previous head/texture work.",
+  "limitations": [
+    "Hands were detected in 89/150 left and 60/150 right fist-phase frames; hidden/small hands cannot be reconstructed reliably.",
+    "Stationary showroom root; not calibrated ground-contact or walking reconstruction.",
+    "No body/garment collision solver: hands on torso and extreme poses may intersect clothing.",
+    "Source head has no facial expression blendshapes; clothing is skinned, not physical sizing/drape simulation."
+  ]
+}

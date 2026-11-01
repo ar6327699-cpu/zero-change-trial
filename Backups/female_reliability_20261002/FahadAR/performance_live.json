@@ -1,0 +1,30 @@
+{
+  "mode": "smooth",
+  "frames": 390,
+  "fit_frames": 277,
+  "capture_to_apply_ms": 369.04823780059814,
+  "inference_ms": 204.54000000017913,
+  "blender_apply_ms": 116.79259999982605,
+  "processed_fps": 4.199842912952465,
+  "stage": "SIDES",
+  "lower_calibrated": true,
+  "back_samples": 16,
+  "regional_fit": {
+    "corrected_joints": 12,
+    "shoulder_correction_px": 1.6633131993082289
+  },
+  "best_stability": true,
+  "held_frames": 0,
+  "rejected_packets": 0,
+  "committed_seq": 408,
+  "female_motion": {
+    "stationary_or_translation_frames": 14,
+    "live_camera_loss_frames": 0,
+    "loss_grace_ms": 120.0,
+    "worker_stages_ms": {
+      "crop_and_model": 67.10440000006201,
+      "motion_and_pose": 19.119499999760592,
+      "foreground": 109.5091000006505
+    }
+  }
+}

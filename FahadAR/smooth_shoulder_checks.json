@@ -1,0 +1,30 @@
+{
+  "latest_frame_queue": true,
+  "shoulder_shape_checks": [
+    {
+      "cap_weight": 0,
+      "reversed_triangles": 0,
+      "min_area_ratio": 1.0,
+      "max_lowering_mesh_units": 0.0
+    },
+    {
+      "cap_weight": 0.7,
+      "reversed_triangles": 0,
+      "min_area_ratio": 0.32852632910707846,
+      "max_lowering_mesh_units": 13.749249267578136
+    },
+    {
+      "cap_weight": 1,
+      "reversed_triangles": 0,
+      "min_area_ratio": 0.041322550277334495,
+      "max_lowering_mesh_units": 19.64178466796875
+    }
+  ],
+  "uv_unchanged": true,
+  "rendered_yaw_degrees": [
+    0,
+    90,
+    -90
+  ],
+  "live_fit": "not verified by these synthetic tests"
+}

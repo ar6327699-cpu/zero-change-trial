@@ -1,0 +1,18 @@
+{
+  "frames_applied": 350,
+  "valid_fit_frames": 168,
+  "calibration_stage": "SIDES",
+  "mode": "smooth",
+  "inference_median_ms": 147.38255000702338,
+  "blender_apply_median_ms": 41.85684999538353,
+  "side_sample_counts": [
+    0,
+    0
+  ],
+  "back_samples": 0,
+  "lower_calibrated": true,
+  "frames_with_foreground_arms": 329,
+  "alignment_median_px": 3.58292408281413,
+  "capture_to_apply_median_ms": 265.46311378479004,
+  "note": "Projection alignment only; not physical fit or full display latency. No camera images saved."
+}

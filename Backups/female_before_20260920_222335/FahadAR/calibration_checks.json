@@ -1,0 +1,57 @@
+{
+  "synthetic_cases": [
+    {
+      "name": "profile_-100",
+      "yaw": -99.99999999999999,
+      "projection_error_px": 3.747002708109903e-15
+    },
+    {
+      "name": "profile_-90",
+      "yaw": -90.0,
+      "projection_error_px": 1.2490009027033011e-15
+    },
+    {
+      "name": "profile_-60",
+      "yaw": -59.999999999999986,
+      "projection_error_px": 0.0
+    },
+    {
+      "name": "profile_-30",
+      "yaw": -14.99999999999999,
+      "projection_error_px": 1.365717451849395e-14
+    },
+    {
+      "name": "profile_0",
+      "yaw": 0.0,
+      "projection_error_px": 1.0850730442248489e-14
+    },
+    {
+      "name": "profile_30",
+      "yaw": 14.99999999999999,
+      "projection_error_px": 5.4280771118851616e-15
+    },
+    {
+      "name": "profile_60",
+      "yaw": 59.999999999999986,
+      "projection_error_px": 0.0
+    },
+    {
+      "name": "profile_90",
+      "yaw": 90.0,
+      "projection_error_px": 9.992007221626409e-15
+    },
+    {
+      "name": "profile_100",
+      "yaw": 99.99999999999999,
+      "projection_error_px": 1.2490984770874743e-14
+    },
+    {
+      "name": "profile_90_hidden_arm",
+      "yaw": 90.0,
+      "projection_error_px": 9.992007221626409e-15
+    }
+  ],
+  "shape_keys_finite": true,
+  "basis_and_uv_unchanged": true,
+  "live_calibration_test": "pending"
+}

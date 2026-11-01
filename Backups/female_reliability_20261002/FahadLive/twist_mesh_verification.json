@@ -1,0 +1,7 @@
+{
+  "twist_mesh_cases": 10,
+  "max_leg_mesh_change": 0.0,
+  "max_head_mesh_change": 0.0,
+  "max_wrist_position_change": 5.364935406266061e-07,
+  "finite_meshes": true
+}

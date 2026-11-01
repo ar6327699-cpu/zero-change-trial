@@ -1,0 +1,48 @@
+{
+  "mode": "smooth",
+  "frames": 810,
+  "fit_frames": 729,
+  "capture_to_apply_ms": 373.7068176269531,
+  "inference_ms": 137.241099961102,
+  "blender_apply_ms": 119.61585003882647,
+  "processed_fps": 6.078925750489813,
+  "stage": "SIDES",
+  "lower_calibrated": true,
+  "back_samples": 0,
+  "regional_fit": {
+    "corrected_joints": 10,
+    "shoulder_correction_px": 2.3346527971035376
+  },
+  "best_stability": true,
+  "held_frames": 0,
+  "rejected_packets": 0,
+  "committed_seq": 822,
+  "female_motion": {
+    "stationary_or_translation_frames": 58,
+    "live_camera_loss_frames": 0,
+    "loss_grace_ms": 120.0,
+    "worker_stages_ms": {
+      "crop_and_model": 69.38200001604855,
+      "motion_and_pose": 27.775999973528087,
+      "foreground": 27.318699983879924,
+      "foreground_work": 54.270500084385276,
+      "same_frame_parallel": true
+    },
+    "gate": {
+      "reason": "observed_movement",
+      "counts": {
+        "new_anchor": 33,
+        "settling": 40,
+        "observed_movement": 559,
+        "image_rejected_landmark_outlier": 9,
+        "visual_hold": 58,
+        "joint_travel": 17,
+        "image_unknown": 12,
+        "reacquired_joint_moved": 1,
+        "joint_loss_expired": 7
+      },
+      "missing_grace_ms": 650.0
+    },
+    "regional_holds": []
+  }
+}

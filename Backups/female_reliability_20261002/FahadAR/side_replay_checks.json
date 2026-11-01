@@ -1,0 +1,9 @@
+{
+  "front_ratio_from_recorded_pose": 0.895500325534681,
+  "recording_frames": 811,
+  "profile_frames": 25,
+  "old_profile_valid": 3,
+  "new_profile_valid": 25,
+  "profile_joint_error_median_px": 4.756632733045141,
+  "scope": "Replay of previous real landmark recording; not current live calibration, garment-edge ground truth or physical size validation."
+}

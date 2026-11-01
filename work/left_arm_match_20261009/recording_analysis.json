@@ -1,0 +1,36 @@
+{
+  "left": {
+    "image_reasons": {
+      "quiet_motion_handover": 30,
+      "image_motion_fusion": 60,
+      "partial_image_fusion": 9,
+      "unobserved": 4,
+      "existing_stillness": 6,
+      "agrees": 10,
+      "depth_changed": 1
+    },
+    "fully_supported_samples": 59,
+    "final_filter_lag_p90_max_px": [
+      2.307712338643923,
+      4.712519213079263
+    ]
+  },
+  "right": {
+    "image_reasons": {
+      "quiet_motion_handover": 30,
+      "image_motion_fusion": 66,
+      "depth_changed": 1,
+      "agrees": 16,
+      "unobserved": 3,
+      "shoulder_disagrees": 1,
+      "partial_image_fusion": 1,
+      "segments_disagree": 1,
+      "existing_stillness": 1
+    },
+    "fully_supported_samples": 74,
+    "final_filter_lag_p90_max_px": [
+      1.2857104997913746,
+      2.2645573678231634
+    ]
+  }
+}

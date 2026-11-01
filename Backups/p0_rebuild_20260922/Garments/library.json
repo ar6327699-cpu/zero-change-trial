@@ -1,0 +1,515 @@
+[
+  {
+    "id": "a0500ea1917a492d9b1e390e133e4e9c",
+    "name": "DEMO HALF_SHIRT",
+    "category": "HALF_SHIRT",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "17562fafeee44c4eb9b1140c04795174",
+    "name": "DEMO FULL_SHIRT",
+    "category": "FULL_SHIRT",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "467727c84b0f482389d79b4b02a6dcd7",
+    "name": "DEMO SHORTS",
+    "category": "SHORTS",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "ace51f9c0a9142e4b16c2d0c5fbb794d",
+    "name": "DEMO PANTS",
+    "category": "PANTS",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "055be7b0ddc24657b8da891acabec176",
+    "name": "DEMO TROUSERS",
+    "category": "TROUSERS",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "2641fafaa7f74a59b04be005a09837d2",
+    "name": "fahad",
+    "category": "HALF_SHIRT",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "c99068645c174073b9a6999ba0e8d990",
+    "name": "fahad",
+    "category": "HALF_SHIRT",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction"
+  },
+  {
+    "id": "c5ae84be901e461f92ae45b51422fb68",
+    "name": "Fahad black crew - corrected",
+    "category": "HALF_SHIRT",
+    "notes": [
+      "Product-photo alignment is approximate; inspect neckline, print and sleeve seams."
+    ],
+    "method": "anchored product photo v2",
+    "photo_layout": "PRODUCT",
+    "neckline": "CREW",
+    "slim": 0.08
+  },
+  {
+    "id": "d5821d84b4904c519ace50d23dc37e5d",
+    "name": "Fahad black crew",
+    "category": "PANTS",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0
+  },
+  {
+    "id": "04277da06e8743dcabe5fdbadc56cf8d",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0
+  },
+  {
+    "id": "49f6c88dad2d42f9b1954dafdbbdd6d8",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [],
+    "method": "rigged template + local front/back photo projection; not exact 3D reconstruction",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0
+  },
+  {
+    "id": "c9090277640246eea9bdb3f7875be0b1",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0
+  },
+  {
+    "id": "d36f2d53448c4473ba1af7edd85312d2",
+    "name": "FEMALE | Red tonal Kameez",
+    "category": "FEMALE_KAMEEZ",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": null
+  },
+  {
+    "id": "d522da21fedf4c6591624961f3207286",
+    "name": "FEMALE | Red tonal Trouser",
+    "category": "FEMALE_TROUSER",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": null
+  },
+  {
+    "id": "6d14a961dab142c99ee19d72257c1c6e",
+    "name": "FEMALE | Red gold Kameez",
+    "category": "FEMALE_KAMEEZ",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": null
+  },
+  {
+    "id": "857b8b6dc41c4f8ba907e3cdfa6322bc",
+    "name": "FEMALE | Red gold Trouser",
+    "category": "FEMALE_TROUSER",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": null
+  },
+  {
+    "id": "da1510ad51514c6282f4c85cdf81b575",
+    "name": "FEMALE | Green gold Kameez",
+    "category": "FEMALE_KAMEEZ",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": null
+  },
+  {
+    "id": "1592e44672824c30927d01d5ecf65b18",
+    "name": "FEMALE | Green gold Shalwar",
+    "category": "FEMALE_SHALWAR",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": null
+  },
+  {
+    "id": "0f37a8ebcdef4ff38440ef0919ee93a8",
+    "name": "FEMALE | Yellow Kameez",
+    "category": "FEMALE_KAMEEZ",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": [
+      [
+        0.004739336492890996,
+        0.03943661971830986,
+        0.24983073798239674,
+        0.4751173708920188
+      ],
+      [
+        0.25389302640487477,
+        0.03943661971830986,
+        0.4989844278943805,
+        0.4751173708920188
+      ]
+    ]
+  },
+  {
+    "id": "ef586ae9eb9c48c49b1a5dcd01997da7",
+    "name": "FEMALE | Yellow Shalwar",
+    "category": "FEMALE_SHALWAR",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": [
+      [
+        0.004739336492890996,
+        0.5539906103286385,
+        0.24983073798239674,
+        0.9380281690140845
+      ],
+      [
+        0.25389302640487477,
+        0.5539906103286385,
+        0.4989844278943805,
+        0.9380281690140845
+      ]
+    ]
+  },
+  {
+    "id": "f26bc5d2e7884dcdb2512203e9a706c2",
+    "name": "FEMALE | Blue floral Kameez",
+    "category": "FEMALE_KAMEEZ",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": [
+      [
+        0.5030467163168585,
+        0.03943661971830986,
+        0.7481381178063643,
+        0.4751173708920188
+      ],
+      [
+        0.7522004062288422,
+        0.03943661971830986,
+        0.997291807718348,
+        0.4751173708920188
+      ]
+    ]
+  },
+  {
+    "id": "b8eb8b4c47f5411fa6492e97892b60eb",
+    "name": "FEMALE | Blue floral Shalwar",
+    "category": "FEMALE_SHALWAR",
+    "notes": [
+      "Approximate photo-informed silhouette. Unseen depth/seams are priors; live fit requires review."
+    ],
+    "method": "Female master v1: fixed front/back/sleeve UV panels; source motifs preserved",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "FEMALE",
+    "source_regions": [
+      [
+        0.5030467163168585,
+        0.5539906103286385,
+        0.7481381178063643,
+        0.9380281690140845
+      ],
+      [
+        0.7522004062288422,
+        0.5539906103286385,
+        0.997291807718348,
+        0.9380281690140845
+      ]
+    ]
+  },
+  {
+    "id": "7125317243db4845b83a5d9555b8717c",
+    "name": "MALE | Blue Kurta",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": [
+      [
+        0.035,
+        0.062,
+        0.495,
+        0.969
+      ],
+      [
+        0.505,
+        0.062,
+        0.98,
+        0.969
+      ]
+    ]
+  },
+  {
+    "id": "f3b56f5efb604bfd97b8fe9c4d7e3cef",
+    "name": "MALE | Blue Shalwar",
+    "category": "SHALWAR",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": [
+      [
+        0.035,
+        0.062,
+        0.495,
+        0.969
+      ],
+      [
+        0.505,
+        0.062,
+        0.98,
+        0.969
+      ]
+    ]
+  },
+  {
+    "id": "b59ffb92529b4d8283166e3c308b1b4c",
+    "name": "MALE | Black Kurta",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": [
+      [
+        0.035,
+        0.062,
+        0.495,
+        0.969
+      ],
+      [
+        0.505,
+        0.062,
+        0.98,
+        0.969
+      ]
+    ]
+  },
+  {
+    "id": "6352468beb8c4b73b3134f03cd22891d",
+    "name": "MALE | Black Shalwar",
+    "category": "SHALWAR",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": [
+      [
+        0.035,
+        0.062,
+        0.495,
+        0.969
+      ],
+      [
+        0.505,
+        0.062,
+        0.98,
+        0.969
+      ]
+    ]
+  },
+  {
+    "id": "ce96b46cd01c4fb2aa5370dcecf6ae67",
+    "name": "MALE | Green Kurta",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": [
+      [
+        0.035,
+        0.062,
+        0.495,
+        0.969
+      ],
+      [
+        0.505,
+        0.062,
+        0.98,
+        0.969
+      ]
+    ]
+  },
+  {
+    "id": "af76fb63bad046cb99ef4ee945d2a427",
+    "name": "MALE | Green Shalwar",
+    "category": "SHALWAR",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": [
+      [
+        0.035,
+        0.062,
+        0.495,
+        0.969
+      ],
+      [
+        0.505,
+        0.062,
+        0.98,
+        0.969
+      ]
+    ]
+  },
+  {
+    "id": "b5bb1186766242488c0fc99c0818c165",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": null
+  },
+  {
+    "id": "9e84898c1c6f4b989d14eaa24c8df8ab",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": null
+  },
+  {
+    "id": "05c0dbc5399843b9b0d80afd9f90f4c7",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": null
+  },
+  {
+    "id": "f3678caca54e4196a9c6d76b92e578aa",
+    "name": "Fahad black crew",
+    "category": "KURTA",
+    "notes": [
+      "Approximate Eastern pattern; inspect seams, silhouette and live fit. Depth/slits use master priors."
+    ],
+    "method": "Eastern master v2: normalized product profiles + anchored panel UV",
+    "photo_layout": "PRODUCT",
+    "neckline": "template",
+    "slim": 0,
+    "profile": "MALE",
+    "source_regions": null
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "captured_frames": 811,
+  "actual_applied_frames": 787,
+  "replayed_and_matched_frames": 787,
+  "max_actual_vs_replay_bone_quaternion_error": 0.0,
+  "writer_types": [
+    "LiveTargetArmaturePoseWriter"
+  ],
+  "renders": [
+    {
+      "case": "left",
+      "seq": 412,
+      "time": 42.922000000000025,
+      "phase": 3,
+      "info": {
+        "left_leg": true,
+        "right_leg": true,
+        "left_hand": false,
+        "right_hand": false,
+        "head_calibrated": true,
+        "body": true,
+        "heading_deg": -89.3689393005522,
+        "profile_weight": 1.0,
+        "solver_version": "side-profile-1",
+        "left_arm": true,
+        "right_arm": false,
+        "calibration_samples": 20
+      }
+    },
+    {
+      "case": "right",
+      "seq": 439,
+      "time": 45.6099999999999,
+      "phase": 3,
+      "info": {
+        "left_leg": true,
+        "right_leg": true,
+        "left_hand": false,
+        "right_hand": false,
+        "head_calibrated": true,
+        "body": true,
+        "heading_deg": 86.49419970317504,
+        "profile_weight": 1.0,
+        "solver_version": "side-profile-1",
+        "left_arm": false,
+        "right_arm": true,
+        "calibration_samples": 20
+      }
+    },
+    {
+      "case": "front",
+      "seq": 246,
+      "time": 26.3599999999999,
+      "phase": 1,
+      "info": {
+        "left_leg": true,
+        "right_leg": true,
+        "left_hand": false,
+        "right_hand": true,
+        "head_calibrated": true,
+        "body": true,
+        "heading_deg": 0.0,
+        "profile_weight": 0.0,
+        "solver_version": "side-profile-1",
+        "left_arm": true,
+        "right_arm": true,
+        "calibration_samples": 20
+      }
+    }
+  ],
+  "scope": "Actual application and representative observed turns verified. Multi-person/incomplete framing prevents certifying all requested live poses."
+}

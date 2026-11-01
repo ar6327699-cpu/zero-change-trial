@@ -1,0 +1,86 @@
+{
+  "checks_passed": 22,
+  "checks": [
+    "left quiet handover exercised",
+    "left stop does not reintroduce raw-detector offset",
+    "left settled output remains fixed",
+    "right quiet handover exercised",
+    "right stop does not reintroduce raw-detector offset",
+    "right settled output remains fixed",
+    "quiet unchanged",
+    "unknown_slow unchanged",
+    "stale_slow unchanged",
+    "body_translation unchanged",
+    "5 fps fallback reduces motion error",
+    "6.3 fps fallback reduces motion error",
+    "7 fps fallback reduces motion error",
+    "15 fps fallback reduces motion error",
+    "30 fps fallback reduces motion error",
+    "60 fps fallback reduces motion error",
+    "quiet_start retains observation safeguards",
+    "loss retains observation safeguards",
+    "gap retains observation safeguards",
+    "depth_change retains observation safeguards",
+    "unsupported_wrist retains observation safeguards",
+    "single-frame landmark outlier still rejected"
+  ],
+  "handover": [
+    {
+      "side": "left",
+      "old_stop_drift_px": 3.499776350904964,
+      "new_stop_drift_px": 0.0,
+      "first_handover_frame": 18
+    },
+    {
+      "side": "right",
+      "old_stop_drift_px": 3.499776350904944,
+      "new_stop_drift_px": 0.0,
+      "first_handover_frame": 18
+    }
+  ],
+  "fast_fallback": [
+    {
+      "fps": 5,
+      "old_mean_xy_error_px": 2.314040911034588,
+      "new_mean_xy_error_px": 1.068857229514389,
+      "old_max_px": 5.123846351911903,
+      "new_max_px": 4.838795315408111
+    },
+    {
+      "fps": 6.3,
+      "old_mean_xy_error_px": 2.3138471796047817,
+      "new_mean_xy_error_px": 0.9816450011870852,
+      "old_max_px": 4.646804037328298,
+      "new_max_px": 4.510899770301755
+    },
+    {
+      "fps": 7,
+      "old_mean_xy_error_px": 2.2473005148176415,
+      "new_mean_xy_error_px": 0.94639538386541,
+      "old_max_px": 4.15870656657559,
+      "new_max_px": 3.5597665331059636
+    },
+    {
+      "fps": 15,
+      "old_mean_xy_error_px": 1.991917810439788,
+      "new_mean_xy_error_px": 0.6762792780454603,
+      "old_max_px": 3.457319023879779,
+      "new_max_px": 3.0154926128199633
+    },
+    {
+      "fps": 30,
+      "old_mean_xy_error_px": 1.747261368258082,
+      "new_mean_xy_error_px": 0.841511557118785,
+      "old_max_px": 2.9270600710855366,
+      "new_max_px": 2.436657464044518
+    },
+    {
+      "fps": 60,
+      "old_mean_xy_error_px": 1.4054057464774135,
+      "new_mean_xy_error_px": 0.9532433779684254,
+      "old_max_px": 2.9450916015431594,
+      "new_max_px": 2.0965663695409287
+    }
+  ],
+  "note": "Synthetic filter/lock regression checks. No raw wearer-camera replay or measured post-fix display latency."
+}

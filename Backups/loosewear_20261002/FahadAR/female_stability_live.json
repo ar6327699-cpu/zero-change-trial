@@ -1,0 +1,1350 @@
+{
+  "best_stability": true,
+  "gate": {
+    "reason": "observed_movement",
+    "counts": {
+      "observed_movement": 222,
+      "new_anchor": 115,
+      "settling": 80,
+      "joint_travel": 26,
+      "visual_hold": 62,
+      "image_anchor_changed": 2,
+      "image_unknown": 10
+    },
+    "missing_grace_ms": 650.0
+  },
+  "stationary_or_translation_frames": 62,
+  "processed_fps": 5.8733513187331265,
+  "capture_to_apply_median_ms": 279.44624423980713,
+  "worker_stages_ms": {
+    "crop_and_model": 82.2492000006605,
+    "motion_and_pose": 17.880799998238217,
+    "foreground": 28.202299999975367
+  },
+  "recent": [
+    {
+      "seq": 738,
+      "captured_at": 1790920633.4092107,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 739,
+      "captured_at": 1790920633.5531573,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 740,
+      "captured_at": 1790920633.6810224,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 741,
+      "captured_at": 1790920633.8112547,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 742,
+      "captured_at": 1790920633.9518242,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 743,
+      "captured_at": 1790920634.1137369,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 744,
+      "captured_at": 1790920634.2951622,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 745,
+      "captured_at": 1790920634.4512029,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 746,
+      "captured_at": 1790920634.5440068,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 748,
+      "captured_at": 1790920634.9137688,
+      "reason": "new_anchor",
+      "image_reason": "new_anchor",
+      "regional_holds": []
+    },
+    {
+      "seq": 749,
+      "captured_at": 1790920635.0246842,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": []
+    },
+    {
+      "seq": 750,
+      "captured_at": 1790920635.2193828,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 751,
+      "captured_at": 1790920635.3945136,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 752,
+      "captured_at": 1790920635.5844762,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 753,
+      "captured_at": 1790920635.7609148,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 754,
+      "captured_at": 1790920635.985021,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 755,
+      "captured_at": 1790920636.1966124,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 756,
+      "captured_at": 1790920636.384793,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 757,
+      "captured_at": 1790920636.5614948,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 758,
+      "captured_at": 1790920636.7878149,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 759,
+      "captured_at": 1790920636.9619832,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 760,
+      "captured_at": 1790920637.1886194,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 761,
+      "captured_at": 1790920637.3622675,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 762,
+      "captured_at": 1790920637.5586085,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 763,
+      "captured_at": 1790920637.765907,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 764,
+      "captured_at": 1790920637.9206893,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 765,
+      "captured_at": 1790920638.1300921,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 766,
+      "captured_at": 1790920638.33569,
+      "reason": "new_anchor",
+      "image_reason": "translate",
+      "regional_holds": [
+        "torso",
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 767,
+      "captured_at": 1790920638.464415,
+      "reason": "new_anchor",
+      "image_reason": "moving",
+      "regional_holds": [
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 768,
+      "captured_at": 1790920638.5279753,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "left_arm"
+      ]
+    },
+    {
+      "seq": 769,
+      "captured_at": 1790920638.709149,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 770,
+      "captured_at": 1790920638.8322055,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 771,
+      "captured_at": 1790920639.0243492,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 772,
+      "captured_at": 1790920639.1998017,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 773,
+      "captured_at": 1790920639.3628814,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 774,
+      "captured_at": 1790920639.603917,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 775,
+      "captured_at": 1790920639.7819061,
+      "reason": "new_anchor",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 776,
+      "captured_at": 1790920639.9370592,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 777,
+      "captured_at": 1790920640.0961556,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 778,
+      "captured_at": 1790920640.273594,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 779,
+      "captured_at": 1790920640.4067593,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 780,
+      "captured_at": 1790920640.5473568,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 781,
+      "captured_at": 1790920640.775193,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 782,
+      "captured_at": 1790920640.9460564,
+      "reason": "new_anchor",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 783,
+      "captured_at": 1790920641.1381514,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 784,
+      "captured_at": 1790920641.348561,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 785,
+      "captured_at": 1790920641.5383067,
+      "reason": "new_anchor",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 786,
+      "captured_at": 1790920641.7135239,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 787,
+      "captured_at": 1790920641.9078972,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 788,
+      "captured_at": 1790920642.0517678,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 789,
+      "captured_at": 1790920642.2099364,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 790,
+      "captured_at": 1790920642.3527174,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 791,
+      "captured_at": 1790920642.49041,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 792,
+      "captured_at": 1790920642.610973,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 793,
+      "captured_at": 1790920642.7879128,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 794,
+      "captured_at": 1790920642.9125347,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "left_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 795,
+      "captured_at": 1790920643.0481763,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 796,
+      "captured_at": 1790920643.250204,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso"
+      ]
+    },
+    {
+      "seq": 797,
+      "captured_at": 1790920643.4108047,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 798,
+      "captured_at": 1790920643.584714,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 799,
+      "captured_at": 1790920644.3737576,
+      "reason": "image_unknown",
+      "image_reason": "new_anchor",
+      "regional_holds": []
+    },
+    {
+      "seq": 800,
+      "captured_at": 1790920645.1382806,
+      "reason": "image_unknown",
+      "image_reason": "new_anchor",
+      "regional_holds": []
+    },
+    {
+      "seq": 801,
+      "captured_at": 1790920645.9628704,
+      "reason": "image_unknown",
+      "image_reason": "new_anchor",
+      "regional_holds": []
+    },
+    {
+      "seq": 802,
+      "captured_at": 1790920646.7003112,
+      "reason": "image_unknown",
+      "image_reason": "new_anchor",
+      "regional_holds": []
+    },
+    {
+      "seq": 805,
+      "captured_at": 1790920648.2077389,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": []
+    },
+    {
+      "seq": 806,
+      "captured_at": 1790920648.3067584,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 807,
+      "captured_at": 1790920648.4631565,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 808,
+      "captured_at": 1790920648.6084177,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 809,
+      "captured_at": 1790920648.7999706,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 810,
+      "captured_at": 1790920648.896047,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm"
+      ]
+    },
+    {
+      "seq": 811,
+      "captured_at": 1790920649.1040463,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 812,
+      "captured_at": 1790920649.2322385,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 813,
+      "captured_at": 1790920649.3793578,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 814,
+      "captured_at": 1790920649.535851,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "left_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 815,
+      "captured_at": 1790920649.7156465,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 816,
+      "captured_at": 1790920649.8407078,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 817,
+      "captured_at": 1790920649.9678025,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 818,
+      "captured_at": 1790920650.1127603,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 819,
+      "captured_at": 1790920650.2398472,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 820,
+      "captured_at": 1790920650.3381565,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm"
+      ]
+    },
+    {
+      "seq": 821,
+      "captured_at": 1790920650.5163674,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 822,
+      "captured_at": 1790920650.6413941,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 823,
+      "captured_at": 1790920650.7434764,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 824,
+      "captured_at": 1790920650.8812525,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 825,
+      "captured_at": 1790920650.9773207,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 826,
+      "captured_at": 1790920651.1039047,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 827,
+      "captured_at": 1790920651.2807624,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 828,
+      "captured_at": 1790920651.4149702,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 829,
+      "captured_at": 1790920651.5206027,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 830,
+      "captured_at": 1790920651.6847982,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 831,
+      "captured_at": 1790920651.808853,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 832,
+      "captured_at": 1790920651.9214914,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 833,
+      "captured_at": 1790920652.049699,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 834,
+      "captured_at": 1790920652.1457253,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso"
+      ]
+    },
+    {
+      "seq": 835,
+      "captured_at": 1790920652.288816,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 836,
+      "captured_at": 1790920652.4205003,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 837,
+      "captured_at": 1790920652.5456283,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 838,
+      "captured_at": 1790920652.6578147,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 839,
+      "captured_at": 1790920652.7843175,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 840,
+      "captured_at": 1790920652.912388,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 841,
+      "captured_at": 1790920653.0569634,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 842,
+      "captured_at": 1790920653.2198179,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "left_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 843,
+      "captured_at": 1790920653.3129005,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "right_arm"
+      ]
+    },
+    {
+      "seq": 844,
+      "captured_at": 1790920653.4603133,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm"
+      ]
+    },
+    {
+      "seq": 845,
+      "captured_at": 1790920653.5903242,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 846,
+      "captured_at": 1790920653.7289271,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 847,
+      "captured_at": 1790920653.8586135,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg"
+      ]
+    },
+    {
+      "seq": 848,
+      "captured_at": 1790920653.9846873,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 849,
+      "captured_at": 1790920654.1651268,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 850,
+      "captured_at": 1790920654.3527162,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 851,
+      "captured_at": 1790920654.5278199,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "left_arm",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 852,
+      "captured_at": 1790920654.6264043,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "right_arm"
+      ]
+    },
+    {
+      "seq": 853,
+      "captured_at": 1790920654.7516055,
+      "reason": "new_anchor",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "right_arm"
+      ]
+    },
+    {
+      "seq": 854,
+      "captured_at": 1790920654.9324152,
+      "reason": "settling",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 855,
+      "captured_at": 1790920655.0564585,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 856,
+      "captured_at": 1790920655.1553245,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 857,
+      "captured_at": 1790920655.3003495,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 858,
+      "captured_at": 1790920655.4606006,
+      "reason": "visual_hold",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 859,
+      "captured_at": 1790920655.6006775,
+      "reason": "joint_travel",
+      "image_reason": "quiet",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "left_leg",
+        "right_leg"
+      ]
+    },
+    {
+      "seq": 860,
+      "captured_at": 1790920655.7627947,
+      "reason": "observed_movement",
+      "image_reason": "moving",
+      "regional_holds": [
+        "torso",
+        "right_arm",
+        "right_leg"
+      ]
+    }
+  ]
+}

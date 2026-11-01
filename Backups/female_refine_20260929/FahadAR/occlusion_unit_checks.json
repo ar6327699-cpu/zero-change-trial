@@ -1,0 +1,13 @@
+{
+  "crossed_forearms_matte": true,
+  "behind_arms_excluded": true,
+  "clothes_pixels_excluded": true,
+  "missing_pose_cleared": true,
+  "actual_model_inference_ms": [
+    192.2,
+    177.6,
+    190.2,
+    184.4
+  ],
+  "scope": "Synthetic matte tests and real model API smoke test; not live edge-accuracy validation."
+}

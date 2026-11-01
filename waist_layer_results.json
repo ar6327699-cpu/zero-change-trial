@@ -1,0 +1,58 @@
+[
+  {
+    "pose": "arms_out",
+    "outside_before": 161,
+    "outside_after": 0,
+    "max_outside_after": -0.23755897395683465,
+    "max_displacement": 5.11767748491621,
+    "evaluation_and_check_ms": 109.27850000007311
+  },
+  {
+    "pose": "arms_down",
+    "outside_before": 161,
+    "outside_after": 0,
+    "max_outside_after": -0.23755897395683465,
+    "max_displacement": 5.11767748491621,
+    "evaluation_and_check_ms": 99.91169999557314
+  },
+  {
+    "pose": "wide_stance",
+    "outside_before": 161,
+    "outside_after": 0,
+    "max_outside_after": -0.24976231739959776,
+    "max_displacement": 5.14321751493635,
+    "evaluation_and_check_ms": 101.52029999881051
+  },
+  {
+    "pose": "left_leg_only",
+    "outside_before": 159,
+    "outside_after": 0,
+    "max_outside_after": -0.25242456111009576,
+    "max_displacement": 5.159125115518414,
+    "evaluation_and_check_ms": 101.41039999871282
+  },
+  {
+    "pose": "right_leg_only",
+    "outside_before": 161,
+    "outside_after": 0,
+    "max_outside_after": -0.23316842730658807,
+    "max_displacement": 5.098111002542665,
+    "evaluation_and_check_ms": 106.95890000351937
+  },
+  {
+    "pose": "bent_elbows",
+    "outside_before": 161,
+    "outside_after": 0,
+    "max_outside_after": -0.23755897395683465,
+    "max_displacement": 5.11767748491621,
+    "evaluation_and_check_ms": 105.0396000064211
+  },
+  {
+    "pose": "bent_knees",
+    "outside_before": 157,
+    "outside_after": 11,
+    "max_outside_after": 57.06062724521611,
+    "max_displacement": 5.246450028716753,
+    "evaluation_and_check_ms": 105.88459999416955
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "key": "female_mint_reference",
+    "name": "Mint floral + pink Dupatta",
+    "profile": "FEMALE",
+    "top": "b46ad3ea32da805621b6e9b0d19bd2a8",
+    "bottom": "51786debd52cab055fe45fa9935ef180",
+    "dupatta": "501334e357134af1b2e44532cd7bed9b"
+  },
+  {
+    "key": "female_red_tonal",
+    "name": "Red tonal",
+    "profile": "FEMALE",
+    "top": "d36f2d53448c4473ba1af7edd85312d2",
+    "bottom": "d522da21fedf4c6591624961f3207286"
+  },
+  {
+    "key": "female_red_gold",
+    "name": "Red gold",
+    "profile": "FEMALE",
+    "top": "6d14a961dab142c99ee19d72257c1c6e",
+    "bottom": "857b8b6dc41c4f8ba907e3cdfa6322bc"
+  },
+  {
+    "key": "female_green_gold",
+    "name": "Green gold",
+    "profile": "FEMALE",
+    "top": "da1510ad51514c6282f4c85cdf81b575",
+    "bottom": "1592e44672824c30927d01d5ecf65b18"
+  },
+  {
+    "key": "female_yellow",
+    "name": "Yellow",
+    "profile": "FEMALE",
+    "top": "0f37a8ebcdef4ff38440ef0919ee93a8",
+    "bottom": "ef586ae9eb9c48c49b1a5dcd01997da7"
+  },
+  {
+    "key": "female_blue_floral",
+    "name": "Blue floral",
+    "profile": "FEMALE",
+    "top": "f26bc5d2e7884dcdb2512203e9a706c2",
+    "bottom": "b8eb8b4c47f5411fa6492e97892b60eb"
+  },
+  {
+    "key": "male_blue",
+    "name": "Blue suit",
+    "profile": "MALE",
+    "top": "7125317243db4845b83a5d9555b8717c",
+    "bottom": "f3b56f5efb604bfd97b8fe9c4d7e3cef"
+  },
+  {
+    "key": "male_black",
+    "name": "Black suit",
+    "profile": "MALE",
+    "top": "b59ffb92529b4d8283166e3c308b1b4c",
+    "bottom": "6352468beb8c4b73b3134f03cd22891d"
+  },
+  {
+    "key": "male_green",
+    "name": "Green suit",
+    "profile": "MALE",
+    "top": "ce96b46cd01c4fb2aa5370dcecf6ae67",
+    "bottom": "af76fb63bad046cb99ef4ee945d2a427"
+  },
+  {
+    "key": "western_black_explore",
+    "name": "Black Explore T-shirt + black cargo",
+    "profile": "MALE",
+    "collection": "WESTERN",
+    "top": "293cd54194fb52199b7bb0bc7937c2b3",
+    "bottom": "4db7cf224351509b8900d48a520a691c"
+  },
+  {
+    "key": "western_white_brooklyn",
+    "name": "White Brooklyn T-shirt + grey jeans",
+    "profile": "MALE",
+    "collection": "WESTERN",
+    "top": "caf1a53d13f95ab1bcbddc2bfe9c64ed",
+    "bottom": "0dd9460da44759fbb17c628122ae99f0"
+  },
+  {
+    "key": "western_beige_good_life",
+    "name": "Beige Good Life T-shirt + black cargo",
+    "profile": "MALE",
+    "collection": "WESTERN",
+    "top": "24806757ec935c55a5bc5187dc79dbaf",
+    "bottom": "4db7cf224351509b8900d48a520a691c"
+  },
+  {
+    "key": "female_pink_embroidered",
+    "name": "Pink embroidered + matching Dupatta",
+    "profile": "FEMALE",
+    "top": "e915c671a1b65e0cb0c7b4a4e08cc629",
+    "bottom": "1e4a7fa7bfee597c90cb1d9f9c164279",
+    "dupatta": "94c5462bf8505e79bf32b78748c09590"
+  }
+]

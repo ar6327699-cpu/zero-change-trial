@@ -1,0 +1,26 @@
+{
+  "left": {
+    "fully_supported_samples": 58,
+    "max_supported_final_xy_lag_px": 0.0,
+    "max_other_final_xy_lag_px": 4.97696326042843
+  },
+  "right": {
+    "fully_supported_samples": 52,
+    "max_supported_final_xy_lag_px": 0.0,
+    "max_other_final_xy_lag_px": 4.04334513902787
+  },
+  "timing_ms": {
+    "worker": {
+      "p50": 181.80074996780604,
+      "p95": 226.41235498595051
+    },
+    "blender_apply": {
+      "p50": 112.85030003637075,
+      "p95": 148.87076506274752
+    },
+    "capture_to_apply": {
+      "p50": 367.84958839416504,
+      "p95": 450.43684244155884
+    }
+  }
+}

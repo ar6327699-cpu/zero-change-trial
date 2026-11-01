@@ -1,0 +1,12 @@
+{
+  "change": "Per-arm learned noise + image-confirmed stillness in female sleeve stabilizer",
+  "changed_files": ["FahadAR/ar_camera.py", "FahadAR/female_arm_stabilizer.py"],
+  "unchanged_but_backed_up": ["FahadAR/female_arm_image.py"],
+  "files": [
+    {"file": "FahadAR/ar_camera.py", "before_sha256": "f979bdd5e50a8c977a4adbf7f68ae3afb46755691c9531e226e68364a4a592bc", "installed_sha256": "827ce5a12d4f04aa225275ca268a9f818b42ca388278539712606bf2cf516165"},
+    {"file": "FahadAR/female_arm_stabilizer.py", "before_sha256": "e4b175d9f07d8cbc4dc1fe6164b9b5f28755e7ff5a2da50f6eb99615e661f66a", "installed_sha256": "cea8d4e685da2d486bc73a13a08f71e02bedb61573653c72566f2bb4cf8274bf"}
+  ],
+  "restore": "Copy ar_camera.py and female_arm_stabilizer.py from this folder back to FahadAR/.",
+  "camera_started": false,
+  "main_blend_saved": false
+}

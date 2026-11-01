@@ -1,0 +1,13 @@
+{
+  "asset_reload_categories": [
+    "HALF_SHIRT",
+    "FULL_SHIRT",
+    "SHORTS",
+    "PANTS",
+    "TROUSERS"
+  ],
+  "packed_images_survive_reload": true,
+  "active_rig_rebound": true,
+  "distal_joint_independence": true,
+  "live_swap_guard": true
+}

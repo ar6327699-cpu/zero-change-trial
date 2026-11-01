@@ -1,0 +1,42 @@
+{
+  "restored_sources": [
+    "FahadAR\\ar_camera.py",
+    "FahadAR\\ar_runtime.py",
+    "FahadAR\\female_arm_image.py",
+    "FahadAR\\female_arm_stabilizer.py",
+    "FahadAR\\garment_fit.py",
+    "FahadAR\\garment_studio.py",
+    "FahadLive\\fahad_backend.py"
+  ],
+  "archived_new_modules": [
+    "FahadAR\\female_coverage.py",
+    "FahadAR\\female_frame.py"
+  ],
+  "archived_bytecode": [
+    "FahadAR\\__pycache__\\ar_camera.cpython-311.pyc",
+    "FahadAR\\__pycache__\\ar_camera.cpython-314.pyc",
+    "FahadAR\\__pycache__\\ar_runtime.cpython-311.pyc",
+    "FahadAR\\__pycache__\\ar_runtime.cpython-313.pyc",
+    "FahadAR\\__pycache__\\ar_runtime.cpython-314.pyc",
+    "FahadAR\\__pycache__\\female_arm_image.cpython-311.pyc",
+    "FahadAR\\__pycache__\\female_arm_stabilizer.cpython-311.pyc",
+    "FahadAR\\__pycache__\\garment_fit.cpython-311.pyc",
+    "FahadAR\\__pycache__\\garment_fit.cpython-313.pyc",
+    "FahadAR\\__pycache__\\garment_fit.cpython-314.pyc",
+    "FahadAR\\__pycache__\\garment_studio.cpython-311.pyc",
+    "FahadAR\\__pycache__\\garment_studio.cpython-313.pyc",
+    "FahadLive\\__pycache__\\fahad_backend.cpython-311.pyc",
+    "FahadLive\\__pycache__\\fahad_backend.cpython-313.pyc",
+    "FahadLive\\__pycache__\\fahad_backend.cpython-314.pyc",
+    "FahadAR\\__pycache__\\female_coverage.cpython-311.pyc",
+    "FahadAR\\__pycache__\\female_coverage.cpython-313.pyc",
+    "FahadAR\\__pycache__\\female_frame.cpython-311.pyc",
+    "FahadAR\\__pycache__\\female_frame.cpython-313.pyc"
+  ],
+  "all_pre_update_hashes_match": true,
+  "verified_pre_update_files": 60,
+  "saved_blend_unchanged": true,
+  "protected_folder_accessed": false,
+  "running_app_requires_restart_without_saving": true,
+  "recovery_backup": "C:\\Users\\eisha\\Downloads\\Zero Change Trial\\Backups\\rollback_full_sleeve_20261009"
+}

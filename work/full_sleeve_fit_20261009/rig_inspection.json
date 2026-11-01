@@ -1,0 +1,1147 @@
+{
+  "top": {
+    "currentUVSet": "TopsDiffuseUVLayer",
+    "gs_label": "Pink embroidered Kameez",
+    "gs_category": "FEMALE_KAMEEZ",
+    "gs_profile": "FEMALE",
+    "gs_regional_controls": "visual proportions; not circumference measurements",
+    "gs_id": "e915c671a1b65e0cb0c7b4a4e08cc629"
+  },
+  "modifiers": [
+    [
+      "Armature",
+      "ARMATURE",
+      true
+    ],
+    [
+      "AR Landmark Fit",
+      "NODES",
+      true
+    ],
+    [
+      "Tailored surface",
+      "SUBSURF",
+      true
+    ]
+  ],
+  "top_matrix": [
+    [
+      0.004306763876229525,
+      0.0,
+      0.0,
+      0.7816882729530334
+    ],
+    [
+      0.0,
+      3.486250732542828e-10,
+      -0.004459512885659933,
+      0.0
+    ],
+    [
+      0.0,
+      0.0046176789328455925,
+      3.3668387522389764e-10,
+      -0.8090054988861084
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "parent_inverse": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "shapes": [
+    [
+      "Basis",
+      1.0
+    ],
+    [
+      "Female shoulder_width",
+      0.0
+    ],
+    [
+      "Female chest_width",
+      0.0
+    ],
+    [
+      "Female waist_width",
+      0.0
+    ],
+    [
+      "Female hip_width",
+      0.0
+    ],
+    [
+      "Female torso_length",
+      0.0
+    ],
+    [
+      "Female torso_depth",
+      0.0
+    ],
+    [
+      "Female chest_depth",
+      0.0
+    ],
+    [
+      "Female waist_depth",
+      0.0
+    ],
+    [
+      "Female hip_depth",
+      0.0
+    ],
+    [
+      "Female arms",
+      0.0
+    ],
+    [
+      "Female legs",
+      0.0
+    ],
+    [
+      "Style length",
+      0.0
+    ],
+    [
+      "Style sleeve_length",
+      0.0
+    ],
+    [
+      "Style sleeve_width",
+      0.0
+    ],
+    [
+      "Style hem_width",
+      0.0
+    ],
+    [
+      "Style slit_height",
+      0.0
+    ],
+    [
+      "Style neckline",
+      0.0
+    ]
+  ],
+  "bones": {
+    "LeftArm": {
+      "head": [
+        38.59870910644531,
+        299.93231201171875,
+        -10.237863540649414
+      ],
+      "tail": [
+        93.72636413574219,
+        299.9322814941406,
+        -10.237839698791504
+      ]
+    },
+    "RightArm": {
+      "head": [
+        -39.58900833129883,
+        299.9396667480469,
+        -12.10391616821289
+      ],
+      "tail": [
+        -95.43168640136719,
+        299.9396667480469,
+        -12.10387134552002
+      ]
+    },
+    "LeftUpLeg": {
+      "head": [
+        18.48247718811035,
+        195.312255859375,
+        1.245609164237976
+      ],
+      "tail": [
+        18.07602310180664,
+        110.08097839355469,
+        -0.2651454210281372
+      ]
+    },
+    "RightUpLeg": {
+      "head": [
+        -18.482192993164062,
+        194.73910522460938,
+        -1.2560659646987915
+      ],
+      "tail": [
+        -17.932941436767578,
+        109.92710876464844,
+        -0.25338637828826904
+      ]
+    },
+    "LeftForeArm": {
+      "head": [
+        93.72637176513672,
+        299.9322814941406,
+        -10.237887382507324
+      ],
+      "tail": [
+        146.49972534179688,
+        299.9322509765625,
+        -10.23786449432373
+      ]
+    },
+    "RightForeArm": {
+      "head": [
+        -95.43168640136719,
+        299.9396667480469,
+        -12.103961944580078
+      ],
+      "tail": [
+        -145.74537658691406,
+        299.9396667480469,
+        -12.103920936584473
+      ]
+    },
+    "LeftLeg": {
+      "head": [
+        18.076021194458008,
+        110.08098602294922,
+        -0.2651451826095581
+      ],
+      "tail": [
+        18.52679443359375,
+        24.665817260742188,
+        -5.409696102142334
+      ]
+    },
+    "RightLeg": {
+      "head": [
+        -17.93294334411621,
+        109.92709350585938,
+        -0.25338631868362427
+      ],
+      "tail": [
+        -18.526920318603516,
+        24.665611267089844,
+        -5.410988807678223
+      ]
+    },
+    "LeftFoot": {
+      "head": [
+        18.52679443359375,
+        24.665813446044922,
+        -5.409696102142334
+      ],
+      "tail": [
+        21.21929168701172,
+        3.2709484100341797,
+        18.88104820251465
+      ]
+    },
+    "RightFoot": {
+      "head": [
+        -18.526920318603516,
+        24.66561508178711,
+        -5.410988807678223
+      ],
+      "tail": [
+        -21.680606842041016,
+        3.174470901489258,
+        19.407215118408203
+      ]
+    },
+    "LeftHand": {
+      "head": [
+        146.49972534179688,
+        299.9322814941406,
+        -10.23786735534668
+      ],
+      "tail": [
+        170.35150146484375,
+        299.9322814941406,
+        -10.2378568649292
+      ]
+    },
+    "RightHand": {
+      "head": [
+        -145.74537658691406,
+        299.9396667480469,
+        -12.103964805603027
+      ],
+      "tail": [
+        -168.19044494628906,
+        299.9396667480469,
+        -12.103946685791016
+      ]
+    }
+  },
+  "vertices": [
+    1472,
+    5634
+  ],
+  "rings": {
+    "51.586": {
+      "count": 20,
+      "base_center": [
+        51.58627700805664,
+        302.5065628051758,
+        -10.000000090152025
+      ],
+      "rest_center": [
+        51.586288642883304,
+        302.4104431152344,
+        -10.000001353025436
+      ],
+      "fit_weights": {
+        "11": 0.7644092440605164,
+        "12": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.23559075593948364,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 1.0,
+        "mixamorig:LeftForeArm": 0.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.0,
+        "mixamorig:RightForeArm": 0.0,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "68.966": {
+      "count": 20,
+      "base_center": [
+        68.9656982421875,
+        302.10621490478513,
+        -10.000000059604645
+      ],
+      "rest_center": [
+        68.96570510864258,
+        302.0427017211914,
+        -10.000001959502697
+      ],
+      "fit_weights": {
+        "11": 0.44915151596069336,
+        "12": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.5508484840393066,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 1.0,
+        "mixamorig:LeftForeArm": 0.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.0,
+        "mixamorig:RightForeArm": 0.0,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "86.345": {
+      "count": 20,
+      "base_center": [
+        86.3451156616211,
+        300.4198852539063,
+        -10.000000011920928
+      ],
+      "rest_center": [
+        86.34513092041016,
+        300.4771926879883,
+        -10.000002375245094
+      ],
+      "fit_weights": {
+        "11": 0.13389387726783752,
+        "12": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.8661061525344849,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.723391592502594,
+        "mixamorig:LeftForeArm": 0.276608407497406,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.0,
+        "mixamorig:RightForeArm": 0.0,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "107.268": {
+      "count": 20,
+      "base_center": [
+        107.26805877685547,
+        300.2921478271484,
+        -10.000000071525573
+      ],
+      "rest_center": [
+        107.26807327270508,
+        300.29221801757814,
+        -10.000002810359002
+      ],
+      "fit_weights": {
+        "11": 0.0,
+        "12": 0.0,
+        "23": 6.007334019120236e-10,
+        "24": 0.0,
+        "13": 0.7433991432189941,
+        "14": 0.0,
+        "15": 0.25660085678100586,
+        "16": 0.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.2056320160627365,
+        "mixamorig:LeftForeArm": 0.7943679690361023,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.0,
+        "mixamorig:RightForeArm": 0.0,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "130.807": {
+      "count": 20,
+      "base_center": [
+        130.8070526123047,
+        300.25152587890625,
+        -9.999999904632569
+      ],
+      "rest_center": [
+        130.80706787109375,
+        300.25160522460936,
+        -10.000003600120545
+      ],
+      "fit_weights": {
+        "11": 0.0,
+        "12": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.29735976457595825,
+        "14": 0.0,
+        "15": 0.7026402354240417,
+        "16": 0.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.0,
+        "mixamorig:LeftForeArm": 1.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.0,
+        "mixamorig:RightForeArm": 0.0,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "-145.745": {
+      "count": 20,
+      "base_center": [
+        -145.74537658691406,
+        300.22605285644534,
+        -10.000000023841858
+      ],
+      "rest_center": [
+        -145.7454071044922,
+        300.22605590820314,
+        -10.000003254413604
+      ],
+      "fit_weights": {
+        "11": 0.0,
+        "12": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 1.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.0,
+        "mixamorig:LeftForeArm": 0.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.0,
+        "mixamorig:RightForeArm": 1.0,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "-122.276": {
+      "count": 20,
+      "base_center": [
+        -122.27631378173828,
+        300.26474914550784,
+        -9.999999952316283
+      ],
+      "rest_center": [
+        -122.27632904052734,
+        300.26478424072263,
+        -10.000001746416093
+      ],
+      "fit_weights": {
+        "11": 0.0,
+        "12": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.0,
+        "14": 0.46645480394363403,
+        "15": 0.0,
+        "16": 0.533545196056366,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.0,
+        "mixamorig:LeftForeArm": 0.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.02084594964981079,
+        "mixamorig:RightForeArm": 0.9791540503501892,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "-98.807": {
+      "count": 20,
+      "base_center": [
+        -98.80726623535156,
+        300.3063262939453,
+        -9.999999964237213
+      ],
+      "rest_center": [
+        -98.99961318969727,
+        300.30637817382814,
+        -10.000000992417336
+      ],
+      "fit_weights": {
+        "11": 0.0,
+        "12": 0.0,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.0,
+        "14": 0.932909369468689,
+        "15": 0.0,
+        "16": 0.06709068268537521,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.0,
+        "mixamorig:LeftForeArm": 0.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.4221666753292084,
+        "mixamorig:RightForeArm": 0.577833354473114,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "-80.552": {
+      "count": 20,
+      "base_center": [
+        -80.55197143554688,
+        300.8626190185547,
+        -10.000000095367431
+      ],
+      "rest_center": [
+        -80.55198440551757,
+        300.90591583251955,
+        -10.000000855326652
+      ],
+      "fit_weights": {
+        "11": 0.0,
+        "12": 0.26645776629447937,
+        "23": 0.0,
+        "24": 1.034174446079561e-09,
+        "13": 0.0,
+        "14": 0.733542263507843,
+        "15": 0.0,
+        "16": 0.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.0,
+        "mixamorig:LeftForeArm": 0.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 0.9054124355316162,
+        "mixamorig:RightForeArm": 0.094587542116642,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "-63.173": {
+      "count": 20,
+      "base_center": [
+        -63.17255783081055,
+        302.26598205566404,
+        -9.999999934434891
+      ],
+      "rest_center": [
+        -63.17256546020508,
+        302.28035125732424,
+        -10.000000216066837
+      ],
+      "fit_weights": {
+        "11": 0.0,
+        "12": 0.5776787400245667,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.0,
+        "14": 0.42232125997543335,
+        "15": 0.0,
+        "16": 0.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.0,
+        "mixamorig:LeftForeArm": 0.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 1.0,
+        "mixamorig:RightForeArm": 0.0,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    },
+    "-45.793": {
+      "count": 20,
+      "base_center": [
+        -45.79314041137695,
+        301.924299621582,
+        -9.999999922513961
+      ],
+      "rest_center": [
+        -45.413472747802736,
+        301.8052276611328,
+        -9.168206650018693
+      ],
+      "fit_weights": {
+        "11": 0.0,
+        "12": 0.8888998031616211,
+        "23": 0.0,
+        "24": 0.0,
+        "13": 0.0,
+        "14": 0.11110018938779831,
+        "15": 0.0,
+        "16": 0.0,
+        "25": 0.0,
+        "26": 0.0
+      },
+      "skin_weights": {
+        "mixamorig:LeftShoulder": 0.0,
+        "mixamorig:LeftArm": 0.0,
+        "mixamorig:LeftForeArm": 0.0,
+        "mixamorig:LeftHand": 0.0,
+        "mixamorig:LeftHandMiddle1": 0.0,
+        "mixamorig:LeftHandMiddle2": 0.0,
+        "mixamorig:LeftHandMiddle3": 0.0,
+        "mixamorig:LeftHandMiddle4": 0.0,
+        "mixamorig:LeftHandThumb1": 0.0,
+        "mixamorig:LeftHandThumb2": 0.0,
+        "mixamorig:LeftHandThumb3": 0.0,
+        "mixamorig:LeftHandThumb4": 0.0,
+        "mixamorig:LeftHandIndex1": 0.0,
+        "mixamorig:LeftHandIndex2": 0.0,
+        "mixamorig:LeftHandIndex3": 0.0,
+        "mixamorig:LeftHandIndex4": 0.0,
+        "mixamorig:LeftHandRing1": 0.0,
+        "mixamorig:LeftHandRing2": 0.0,
+        "mixamorig:LeftHandRing3": 0.0,
+        "mixamorig:LeftHandRing4": 0.0,
+        "mixamorig:LeftHandPinky1": 0.0,
+        "mixamorig:LeftHandPinky2": 0.0,
+        "mixamorig:LeftHandPinky3": 0.0,
+        "mixamorig:LeftHandPinky4": 0.0,
+        "mixamorig:RightShoulder": 0.0,
+        "mixamorig:RightArm": 1.0,
+        "mixamorig:RightForeArm": 0.0,
+        "mixamorig:RightHand": 0.0,
+        "mixamorig:RightHandMiddle1": 0.0,
+        "mixamorig:RightHandMiddle2": 0.0,
+        "mixamorig:RightHandMiddle3": 0.0,
+        "mixamorig:RightHandMiddle4": 0.0,
+        "mixamorig:RightHandThumb1": 0.0,
+        "mixamorig:RightHandThumb2": 0.0,
+        "mixamorig:RightHandThumb3": 0.0,
+        "mixamorig:RightHandThumb4": 0.0,
+        "mixamorig:RightHandIndex1": 0.0,
+        "mixamorig:RightHandIndex2": 0.0,
+        "mixamorig:RightHandIndex3": 0.0,
+        "mixamorig:RightHandIndex4": 0.0,
+        "mixamorig:RightHandRing1": 0.0,
+        "mixamorig:RightHandRing2": 0.0,
+        "mixamorig:RightHandRing3": 0.0,
+        "mixamorig:RightHandRing4": 0.0,
+        "mixamorig:RightHandPinky1": 0.0,
+        "mixamorig:RightHandPinky2": 0.0,
+        "mixamorig:RightHandPinky3": 0.0,
+        "mixamorig:RightHandPinky4": 0.0
+      }
+    }
+  },
+  "fit_modifiers_after": [
+    [
+      "Armature",
+      "ARMATURE",
+      true
+    ],
+    [
+      "AR Landmark Fit",
+      "NODES",
+      true
+    ],
+    [
+      "Tailored surface",
+      "SUBSURF",
+      true
+    ]
+  ]
+}

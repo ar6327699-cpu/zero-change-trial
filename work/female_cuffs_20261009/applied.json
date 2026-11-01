@@ -1,0 +1,18 @@
+{
+  "saved": "C:\\Users\\eisha\\Downloads\\Zero Change Trial\\fahadGenius_AR_experiment.blend",
+  "female_style": {
+    "length": 0.0,
+    "sleeve_length": -0.1,
+    "sleeve_width": 0.3,
+    "hem_width": 0.0,
+    "slit_height": 0.0,
+    "neckline": 0.0
+  },
+  "male_profile_unchanged": true,
+  "mesh_and_uv_unchanged": true,
+  "shape_key_geometry_unchanged": true,
+  "other_controls_unchanged": true,
+  "backup": "C:\\Users\\eisha\\Downloads\\Zero Change Trial\\Backups\\female_cuffs_20261009\\fahadGenius_AR_experiment.blend",
+  "applies_to": "Female profile styles reused on female outfit activation",
+  "live_wearer_fit_verified": false
+}

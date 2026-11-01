@@ -1,0 +1,27 @@
+{
+  "blend": "C:\\Users\\eisha\\Downloads\\Zero Change Trial\\fahadGenius_AR_experiment.blend",
+  "category": "FEMALE_KAMEEZ",
+  "runtime_import": true,
+  "finite_deformation": true,
+  "base_mesh_unchanged": true,
+  "uv_unchanged": true,
+  "sleeve_displacement_blender_units": {
+    "Left_-35": 59.59515380859375,
+    "Left_0": 9.281559323426336e-05,
+    "Left_35": 59.59518051147461,
+    "Right_-35": 59.54849624633789,
+    "Right_0": 9.281559323426336e-05,
+    "Right_35": 59.54848861694336
+  },
+  "evaluation_ms": [
+    46.26410000491887,
+    45.72280001593754,
+    47.173400002066046,
+    47.16990000451915,
+    51.227300020400435,
+    47.705300006782636
+  ],
+  "camera_started": false,
+  "scene_saved": false,
+  "note": "Headless authored-rig deformation smoke test; not a live wearer alignment or display-latency test."
+}
